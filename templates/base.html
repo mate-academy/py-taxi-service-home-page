@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Taxi Service</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+</head>
+<body>
+    <div class="sidebar">SIDEBAR</div>
+    {% block title%}
+        <div class="content">CONTENT</div>
+    {% endblock %}
+    <div class="pagination">PAGINATION</div>
+
+</body>
+</html>
