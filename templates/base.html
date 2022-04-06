@@ -7,11 +7,13 @@
     <link rel="stylesheet" href="{% static 'css/styles.css'%}">
 </head>
 <body>
-    <div class="sidebar">SIDEBAR</div>
-    {% block title%}
+    {% block sidebar%}
+        <div class="sidebar"></div>
+    {% endblock %}
+    {% block content%}
         <div class="content">CONTENT</div>
     {% endblock %}
-    <div class="pagination">PAGINATION</div>
+    {% block pagination %}{% endblock %}
 
 </body>
 </html>
