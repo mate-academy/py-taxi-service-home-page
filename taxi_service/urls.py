@@ -22,4 +22,4 @@ from django.urls import path, include
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("taxi.urls", namespace="taxi")),
-] + static(settings.STATIC_URL, document_room=settings.STATIC_URL)
+] + static(settings.STATIC_URL, document_room=settings.STATIC_ROOT)
