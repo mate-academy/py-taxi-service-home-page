@@ -12,13 +12,9 @@
 </head>
 <body>
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3">
-                {% block sidebar %}{% endblock %}
-            <div class="col-sm-9">
-                {% block content %}{% endblock %}
-                {% block pagination %}{% endblock %}
-        </div>
+        {% block sidebar %}{% endblock %}
+        {% block content %}{% endblock %}
+        {% block pagination %}{% endblock %}
     </div>
 
 </body>
