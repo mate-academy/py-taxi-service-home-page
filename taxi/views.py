@@ -4,7 +4,7 @@ from taxi.models import Driver, Manufacturer, Car
 
 
 def index(request):
-    drivers_count = Driver.objects.count()git
+    drivers_count = Driver.objects.count()
     manufacturers_count = Manufacturer.objects.count()
     cars_count = Car.objects.count()
 
