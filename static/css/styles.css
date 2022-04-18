@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: yellow;
+}
+.sidebar {
+    height: 50vh;
+    width: 100vw;
+    background-color:deepskyblue;
+}
