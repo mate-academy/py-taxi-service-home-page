@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>{{ title }}</title>
+{% endblock %}
+
+{% block content %}
+    <h3>Taxi service summary:</h3>
+    <ul class="taxi_summary">
+        <li>Number of cars {{ cars_amount }}</li>
+        <li>Number of drivers {{ drivers_amount }}</li>
+        <li>Number of manufacturers {{ manufacturers_amount }}</li>
+    </ul>
+{% endblock %}
