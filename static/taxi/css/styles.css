@@ -1,11 +1,24 @@
+body {
+    margin-top: 0px;
+    font-family: sans-serif;
+  }
+
 .nav {
     display: inline-block;
-    text-decoration: underline;
 }
 
-/*.logo {*/
+.nav__link {
+    display: inline-block;
+    font-size: 28px;
+    margin: 5px 28px;
+    padding: 10px 10px;
+    color: white;
+}
 
-/*}*/
+.nav a {
+    text-decoration: underline;
+  }
+
 .header {
     text-align: center;
     background-color: cadetblue;
