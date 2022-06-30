@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block sidebar %}
+    <div class="side_bar">
+        <div>Home page:</div>
+        <ul class="sb_list">
+            <li class="list_item"><a href="{% url 'taxi:index' %}">Home</a></li>
+            <li class="list_item"><a href="#">All drivers</a></li>
+            <li class="list_item"><a href="#">All manufacturer</a></li>
+            <li class="list_item"><a href="#">All cars</a></li>
+        </ul>
+    </div>
+
+{% endblock %}
+
+{% block content %}
+    <h1>Taxi service</h1>
+    <ul>
+        <li>Num drivers: {{ drivers }}</li>
+        <li>Num manufacturers: {{ manufacturer }}</li>
+        <li>Num cars: {{ cars }}</li>
+    </ul>
+{% endblock %}
