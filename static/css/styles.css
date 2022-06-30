@@ -1,0 +1,17 @@
+body {
+    padding: 15px;
+    margin: 15px;
+}
+
+.col-sm-11 {
+    color: darkblue;
+    background-color: deepskyblue;
+}
+
+h3 {
+    margin: 11px;
+}
+
+ul {
+    background-color: lightblue;
+}
