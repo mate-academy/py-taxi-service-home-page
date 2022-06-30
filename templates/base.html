@@ -1,10 +1,10 @@
-{% load static %}
 <!doctype html>
 <html lang="en">
 <head>
     {% block title %}
         <title>Taxi Service</title>
     {% endblock %}
+    {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -21,7 +21,7 @@
             {% endblock %}
         </div>
         <div class="col-sm-11">
-            {% block contant %}{% endblock %}
+            {% block content %}{% endblock %}
             {% block pagination %}{% endblock %}
         </div>
     </div>
