@@ -13,14 +13,3 @@ def index(request):
         "num_cars" : number_cars
     }
     return render(request=request, template_name="base.html", context=context)
-
-
-def drivers(request):
-    drivers = list(Driver.objects.values_list("first_name",
-                                              "last_name",
-                                              "license_number"))
-    name_drivers = ";   ".join([" ".join(driver) for driver in drivers])
-    context = {
-        "name_drivers" : name_drivers
-    }
-    return render(request, template_name="taxi/drivers.html", context=context)
