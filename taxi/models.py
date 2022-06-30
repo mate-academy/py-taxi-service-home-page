@@ -14,6 +14,10 @@ class Driver(AbstractUser):
         verbose_name = "driver"
         verbose_name_plural = "drivers"
 
+    def __str__(self):
+        return f"{self.first_name} {self.last_name}  have "\
+               f"license number : {self.license_number}"
+
 
 class Car(models.Model):
     model = models.CharField(max_length=255)
