@@ -14,4 +14,3 @@ def index(request):
         'cars': cars
     }
     return render(request, "taxi/index.html", context=context)
-
