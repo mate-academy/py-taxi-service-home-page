@@ -1,0 +1,21 @@
+body {
+    font-family: Verdana, serif;
+    background-color: lightyellow;
+    margin: auto;
+    width: 80%;
+}
+
+h1 {
+  color: darkgreen;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 5px;
+
+}
+
+.pagination a {
+  border-radius: 5px;
+    margin: 0 4px;
+}
