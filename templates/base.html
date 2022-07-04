@@ -16,15 +16,14 @@
             <div class="col-sm-2">
 
                 {% block sidebar %}
+                    {% include "includes/sidebar.html" %}
                 {% endblock %}
 
             </div>
             <div class="col-sm-10">
-                <h1>Taxi Service Home</h1>
-                <p>You are welcome!</p>
 
-                <h4>Taxi Service Content:</h4>
                 {% block content %}
+
                 {% endblock %}
 
                 {% block pagination %}
