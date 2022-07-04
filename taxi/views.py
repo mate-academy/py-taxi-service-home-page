@@ -3,11 +3,6 @@ from django.shortcuts import render
 from taxi.models import Manufacturer, Driver, Car
 
 
-def homeland(request):
-    return HttpResponse(f"i am the man")
-
-
-
 def index(request):
     manufacturer_count = Manufacturer.objects.count()
     car_count = Car.objects.count()
