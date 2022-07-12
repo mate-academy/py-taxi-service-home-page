@@ -2,9 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    {% block title %}
     <title>Taxi Service</title>
+    {% endblock %}
+
+    {% load static %}
+    <link rel="icon" href="{% static 'taxi/images/favicon.ico' %}">
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'taxi/css/styles.css' %}">
 </head>
 <body>
+  {% block sidebar %}
+  <div class="sidebar">
+      <a class="sidebar_a" href="/"> Home </a>
+      <a class="sidebar_a" href="#"> All Drivers </a>
+      <a class="sidebar_a" href="#"> All Manufacturers </a>
+      <a class="sidebar_a"  href="#"> All Cars </a>
+      <a href="admin/"> Admin panel </a>
+  </div>
+  {% endblock %}
 
+  {% block content %}
+  <div class="content"></div>
+  {% endblock %}
+
+  <div class="paginator"></div>
 </body>
 </html>
