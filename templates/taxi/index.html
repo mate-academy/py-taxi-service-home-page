@@ -3,8 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Taxi Service</title>
+
+    {% load static %}
+    <link rel="icon" href="{% static 'taxi/images/favicon.ico' %}">
+
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'taxi/css/styles.css' %}">
 </head>
 <body>
-  <h1>Hello</h1>
+  <div class="sidebar">
+      <a class="sidebar_a" href="#"> Home </a>
+      <a class="sidebar_a" href="#"> All Drivers </a>
+      <a class="sidebar_a" href="#"> All Manufacturers </a>
+      <a class="sidebar_a"  href="#"> All Cars </a>
+      <a href="admin/"> Admin panel </a>
+  </div>
+  <div class="content">
+      <h1>Taxi Service Home Page</h1>
+      <p>Welcome to the Taxi Service</p>
+      <h2>Taxi Service content:</h2>
+      <ul>
+          <li>Number of cars {{ count_cars }}</li>
+          <li>Number of drivers {{ count_drivers }}</li>
+          <li>Number of manufacturers {{ count_manufacturers }}</li>
+      </ul>
+  </div>
+  <div class="paginator"></div>
 </body>
 </html>
