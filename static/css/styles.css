@@ -1,0 +1,21 @@
+*{
+    background-color: aqua;
+}
+
+.navigation{
+    list-style: none;
+    text-align: center;
+}
+
+body {
+    font-size: 50px;
+}
+
+li {
+    margin: 30px;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
