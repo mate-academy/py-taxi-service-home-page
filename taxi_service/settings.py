@@ -29,13 +29,6 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 
-TEMPLATES = [
-    {
-        'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'APP_DIRS': True,
-    },
-]
-
 # Application definition
 
 INSTALLED_APPS = [
