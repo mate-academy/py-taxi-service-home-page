@@ -1,0 +1,12 @@
+body {
+    margin-top: 20px;
+}
+
+h1 {
+    font-style: italic;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
