@@ -20,13 +20,13 @@
           <td class="td">Model</td>
           <td class="td">Manufacturer</td>
         </tr>
-      {% for car in car_query %}
-        <tr>
-          <td class="td">{{ car.id }}</td>
-          <td class="td">{{ car.model }}</td>
-          <td class="td">{{ car.manufacturer__name }}</td>
-        </tr>
-      {% endfor %}
+        {% for car in car_query %}
+          <tr>
+            <td class="td">{{ car.id }}</td>
+            <td class="td">{{ car.model }}</td>
+            <td class="td">{{ car.manufacturer__name }}</td>
+          </tr>
+        {% endfor %}
       </tbody>
     </table>
   </main>
