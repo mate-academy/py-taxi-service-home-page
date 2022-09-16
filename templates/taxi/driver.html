@@ -1,35 +1,35 @@
 {% extends "base.html" %}
 {% block title %}
-<title>Driver page</title>
+  <title>Driver page</title>
 {% endblock %}
 {% block sidebar %}
-    {% include "includes/sidebar.html" %}
+  {% include "includes/sidebar.html" %}
 {% endblock %}
 {% block content %}
-    <h1 class="content_header">Taxi service</h1>
-    <main class="main">
-      <table class="table">
-        <thead>
-            <tr>
-                <th colspan="4">Drivers</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="td">ID</td>
-                <td class="td">User name</td>
-                <td class="td">First name</td>
-                <td class="td">Last name</td>
-            </tr>
+  <h1 class="content_header">Taxi service</h1>
+  <main class="main">
+    <table class="table">
+      <thead>
+        <tr>
+          <th colspan="4">Drivers</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="td">ID</td>
+          <td class="td">User name</td>
+          <td class="td">First name</td>
+          <td class="td">Last name</td>
+        </tr>
         {% for driver in driver_query %}
-            <tr>
-                <td class="td">{{ driver.id }}</td>
-                <td class="td">{{ driver.username }}</td>
-                <td class="td">{{ driver.first_name }}</td>
-                <td class="td">{{ driver.last_name }}</td>
-            </tr>
+          <tr>
+            <td class="td">{{ driver.id }}</td>
+            <td class="td">{{ driver.username }}</td>
+            <td class="td">{{ driver.first_name }}</td>
+            <td class="td">{{ driver.last_name }}</td>
+          </tr>
         {% endfor %}
-        </tbody>
+      </tbody>
     </table>
-    </main>
+  </main>
 {% endblock %}
