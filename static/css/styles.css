@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.nav__links {
+    list-style: none;
+    padding: 0;
+
+}
+
+.nav__link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 20px;
+    color: cadetblue;
+}
+
+.content {
+    width: 80%;
+}
+
+.title {
+    text-align: center;
+    color: yellowgreen;
+    margin-bottom: 70px;
+
+}
+
+.section {
+    padding-left: 50px;
+}
+
+.content__list {
+    font-size: 1.25em;
+    padding: 15px;
+}
+
+.header {
+    padding-top: 40px;
+    background-color: bisque;
+    height: 100vh;
+    width: 200px;
+}
+
+.nav__link:hover {
+    font-size: 1.7em;
+}
+
+.content__section__lists {
+    margin-left: 50px;
+}

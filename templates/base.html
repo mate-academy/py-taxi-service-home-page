@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% block  title %}
+        <title>Taxi Service</title>
+    {% endblock %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+
+<body>
+<div class="container">
+    <header class="header">
+        <nav class="nav">
+            {% block sidebar %}
+                {% include "includes/sidebar.html" %}
+            {% endblock %}
+
+        </nav>
+    </header>
+
+    <main class="content">
+        <h1 class="title">Welcome to Taxi Service</h1>
+        <section class="section">
+            <h2>Today we have: </h2>
+            {% block content %}
+
+            {% endblock %}
+        </section>
+
+    </main>
+
+</div>
+</body>
+</html>
