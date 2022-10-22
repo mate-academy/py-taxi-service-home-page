@@ -31,4 +31,4 @@ class CarAdmin(admin.ModelAdmin):
     list_filter = ("manufacturer",)
 
 
-admin.register(Manufacturer)
+admin.site.register(Manufacturer)
