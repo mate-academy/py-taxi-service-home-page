@@ -170,7 +170,7 @@ class Migration(migrations.Migration):
                     "manufacturer",
                     models.ForeignKey(
                         on_delete=django.db.models.deletion.CASCADE,
-                        to="taxi.manufacturer",
+                        to="taxi_temp.manufacturer",
                     ),
                 ),
             ],
