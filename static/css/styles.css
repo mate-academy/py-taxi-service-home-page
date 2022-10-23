@@ -1,0 +1,24 @@
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(
+            to bottom right, yellow, green, black
+    );
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    padding-top: 50px;
+}
+
+.content {
+    padding-top: 50px;
+}
