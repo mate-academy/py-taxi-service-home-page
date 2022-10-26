@@ -1,8 +1,15 @@
-<div class="sidebar-nav">
-    <ul>
-        <li><a href="{% url 'taxi:index' %}">Home page</a></li>
-        <li><a href="#">Manufacturers</a></li>
-        <li><a href="#">Cars</a></li>
-        <li><a href="#">Drivers</a></li>
-    </ul>
-</div>
+<nav id="sidebarMenu" class="collapse d-lg-block sidebar collapse bg-white">
+    <div class="position-sticky">
+        <div class="list-group list-group-flush mx-3 mt-4">
+            <a href="{% url 'taxi:index' %}" class="list-group-item list-group-item-action py-2 ripple"><i
+                    class="fas fa-lock fa-fw me-3"></i><span>Home page</span></a>
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                    class="fas fa-chart-line fa-fw me-3"></i><span>Manufacturers</span></a>
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple">
+                <i class="fas fa-chart-pie fa-fw me-3"></i><span>Cars</span>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action py-2 ripple"><i
+                    class="fas fa-chart-bar fa-fw me-3"></i><span>Drivers</span></a>
+        </div>
+    </div>
+</nav>
