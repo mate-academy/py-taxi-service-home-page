@@ -1,33 +1,33 @@
 {% extends 'base.html' %}
 
 {% block content %}
-    <h1 class="display-1">Taxi Service Home Page</h1>
-    <p>Welcome to this little Taxi Service</p>
-    <div class="homepage-content">
-        <ul class="list-group">
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-car-front-fill"></i>
-                Cars
-                <span class="badge badge-info badge-pill">
+  <h1 class="display-1">Taxi Service Home Page</h1>
+  <p>Welcome to this little Taxi Service</p>
+  <div class="homepage-content">
+    <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <i class="bi bi-car-front-fill"></i>
+        Cars
+        <span class="badge badge-info badge-pill">
                     {{ num_cars }}
                 </span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-person-fill"></i>
-                <span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <i class="bi bi-person-fill"></i>
+        <span>
                     Drivers
                 </span>
-                <span class="badge badge-info badge-pill">
+        <span class="badge badge-info badge-pill">
                     {{ num_drivers }}
                 </span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center">
-                <i class="bi bi-gear-fill"></i>
-                Manufacturers
-                <span class="badge badge-info badge-pill">
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        <i class="bi bi-gear-fill"></i>
+        Manufacturers
+        <span class="badge badge-info badge-pill">
                     {{ num_manufacturers }}
                 </span>
-            </li>
-        </ul>
-    </div>
+      </li>
+    </ul>
+  </div>
 {% endblock %}
