@@ -1,0 +1,21 @@
+body {
+    margin-top: 0px;
+    background-color: black;
+}
+
+.col-sm-10 {
+    background-color: #fffc94;
+    height: 100%;
+    margin-left: 17%;
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.col-sm-2 {
+    position: absolute;
+    height: 100%;
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 50px;
+}
