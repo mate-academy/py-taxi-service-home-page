@@ -10,10 +10,10 @@ def index(request):
     num_cars = Car.objects.count()
     return render(
         request,
-        'taxi/index.html',
+        "taxi/index.html",
         context={
-            'num_drivers': num_drivers,
-            'num_manufacturers': num_manufacturers,
-            'num_cars': num_cars,
+            "num_drivers": num_drivers,
+            "num_manufacturers": num_manufacturers,
+            "num_cars": num_cars,
         }
     )
