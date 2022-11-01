@@ -1,0 +1,12 @@
+.row {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#menu{
+    background-color: #0055A4;
+}
+
+#pagination {
+    background-color: #EF4135;
+}
