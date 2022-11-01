@@ -10,19 +10,19 @@
 </head>
 
 <body>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-sm-5">
-            {% block sidebar %}
-                {% include "includes/sidebar.html" %}
-            {% endblock %}
-        </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-5">
+                {% block sidebar %}
+                    {% include "includes/sidebar.html" %}
+                {% endblock %}
+            </div>
 
-        <div class="col-sm-7 content">
-            {% block content %}
-            {% endblock %}
+            <div class="col-sm-7 content">
+                {% block content %}
+                {% endblock %}
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
