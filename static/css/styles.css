@@ -1,0 +1,14 @@
+body
+{
+    margin:auto;
+    width:1024px;
+    padding:10px;
+    background-color:#ebebeb;
+    font-size:14px;
+    font-family:Verdana;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
