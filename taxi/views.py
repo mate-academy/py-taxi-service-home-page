@@ -15,3 +15,15 @@ def index(request):
     }
 
     return render(request, "taxi/index.html", context=context)
+
+
+def manufacturer(request):
+    return render(request, "taxi/manufacturers.html")
+
+
+def car(request):
+    return render(request, "taxi/cars.html")
+
+
+def driver(request):
+    return render(request, "taxi/drivers.html")
