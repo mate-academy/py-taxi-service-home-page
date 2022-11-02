@@ -5,12 +5,17 @@ body {
 .sidebar-nav {
     list-style: none;
     padding: 0;
-    font-size: 25px;
     margin-left: 10px;
+    font-size: 25px;
 }
 
 .content {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.service-info {
     list-style: none;
     padding: 0;
-    font-size: 40px;
+    font-size: 24px;
 }
