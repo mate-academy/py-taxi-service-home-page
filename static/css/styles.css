@@ -1,0 +1,17 @@
+body {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    margin: 50px;
+    vertical-align: middle;
+}
+
+.sidebar li {
+    font-size: 1.2rem;
+    padding: 0.5em 0;
+    list-style: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.container ul {
+    list-style: square;
+}
