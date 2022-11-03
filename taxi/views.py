@@ -3,7 +3,6 @@ from django.shortcuts import render
 from taxi.models import Driver, Manufacturer, Car
 
 
-# Create your views here.
 def index(request):
     context = {
         "num_drivers": Driver.objects.count(),
