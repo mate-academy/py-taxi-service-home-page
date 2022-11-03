@@ -1,0 +1,9 @@
+body {
+    margin: 2em 0;
+}
+
+.content ul {
+    list-style: none;
+    line-height: 2em;
+    font-size: larger;
+}
