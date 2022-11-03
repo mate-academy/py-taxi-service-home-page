@@ -1,0 +1,9 @@
+body{
+    margin: 50px;
+}
+h1{
+    margin-bottom: 40px;
+}
+.navi>li{
+    width: 100%;
+}
