@@ -23,4 +23,3 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("taxi/", include("taxi.urls", namespace="taxi"))
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
