@@ -1,0 +1,28 @@
+.sidebar {
+    padding: 10px;
+    height: 100vh;
+    border-right: 2px solid cornflowerblue;
+    border-right-width: 5px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar li {
+    padding-top: 15px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 20px;
+    color: dodgerblue;
+}
+.sidebar a:hover {
+    color: lightpink;
+}
+
+.content {
+    padding: 30px;
+}
