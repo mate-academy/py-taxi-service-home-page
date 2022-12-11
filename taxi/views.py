@@ -1,4 +1,3 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 from taxi.models import Car, Driver, Manufacturer
 
@@ -14,4 +13,4 @@ def index(request):
         "num_cars": num_cars
     }
 
-    return render(request, "index.html", context=context)
+    return render(request, "taxi/index.html", context=context)
