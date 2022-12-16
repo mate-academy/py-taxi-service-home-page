@@ -7,9 +7,14 @@
 </head>
 
 {% block content %}
-  <ul>
-    <li>Num cars: {{ num_cars }}</li>
-    <li>Num drivers: {{ num_drivers }}</li>
-    <li>Num manufacturers: {{ num_manufacturers }}</li>
-  </ul>
+  <h1 class="title">TAXI SERVICE</h1>
+  <h2 class ="title_content">Main info:</h2>
+  <div class="time">Before the New Year: {{ before_new_year }}</div>
+  <div class="main_info">
+    <ul>
+      <li>Num cars: {{ num_cars }}</li>
+      <li>Num drivers: {{ num_drivers }}</li>
+      <li>Num manufacturers: {{ num_manufacturers }}</li>
+    </ul>
+  </div>
 {% endblock %}
