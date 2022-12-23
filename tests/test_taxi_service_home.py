@@ -6,7 +6,9 @@ from django.urls import reverse
 
 from taxi.models import Car, Manufacturer
 
-TestCase.fixtures = ["taxi_service_db_data.json", ]
+TestCase.fixtures = [
+    "taxi_service_db_data.json",
+]
 
 
 class HomePageTests(TestCase):
@@ -18,17 +20,14 @@ class HomePageTests(TestCase):
 
         self.assertContains(response, "Home page")
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, "taxi/index.html")
+        self.assertTemplateUsed(response, "taxi/base.html")
         self.assertEqual(response.context["num_drivers"], num_drivers)
         self.assertEqual(response.context["num_cars"], num_cars)
-        self.assertEqual(
-            response.context["num_manufacturers"],
-            num_manufacturers
-        )
+        self.assertEqual(response.context["num_manufacturers"], num_manufacturers)
 
 
 class IsStylesCSSExistTests(TestCase):
     def test_styles_exist(self):
-        file_exists = os.path.exists('static/css/styles.css')
+        file_exists = os.path.exists("static/css/styles.css")
 
         self.assertTrue(file_exists)
