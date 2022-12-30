@@ -1,0 +1,30 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 5px;
+    list-style: none;
+    background-color: #eee;
+    border-radius: 7px;
+}
+
+.head {
+    color: #f00;
+}
+
+.row {
+    padding: 5px;
+}
+
+.paragraph {
+    padding: 3px;
+    background-color: #0f0;
+    border-radius: 5px;
+}
+
+.list {
+    color: #ff0;
+    background-color: #ccc;
+    border-radius: 5px;
+}
