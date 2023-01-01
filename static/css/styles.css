@@ -1,5 +1,13 @@
-body {
-    background-color: bisque;
+
+.sidebar{
+    background-color: gainsboro;
+    height: auto;
+    width: auto;
+    border: aqua;
+    border-radius: 5px;
     padding: 10px;
 }
-
+body {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+}
