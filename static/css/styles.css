@@ -1,0 +1,8 @@
+.main-content {
+    background-color: silver;
+    font-size: 18px;
+}
+
+.sidebar {
+    display: inline-block;
+}
