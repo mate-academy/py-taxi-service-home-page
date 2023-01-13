@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  {% block title %}
+    <title>Taxi</title>
+  {% endblock %}
+  <meta charset="utf=8">
+  <meta name="viewport" content="width=device-widht, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3">
+      {% block sidebare %}
+        {% include "includes/sidebare.html" %}
+      {% endblock %}
+    </div>
+    <div class="col-sm-9">
+      {% block content %}
+        <h1>Taxi service</h1>
+        <h3>Content:</h3>
+        <ul>
+          <li>Num drivers: {{ num_drivers }}</li>
+          <li>Num manufacturers: {{ num_manufacturers }}</li>
+          <li>Num cars: {{ num_cars }}</li>
+        </ul>
+      {% endblock %}
+    </div>
+  </div>
+</div>
+</body>
+</html>
