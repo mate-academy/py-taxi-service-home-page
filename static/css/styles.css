@@ -1,0 +1,22 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 2px;
+    list-style: none;
+    background-color: #e3f2fd;
+    position: sticky;
+    scroll-behavior: auto;
+}
+
+.calculations {
+    position: center;
+    text-align: center;
+    list-style: none;
+    background-color: yellow;
+}
+
+.index-title {
+    text-align: center;
+}
