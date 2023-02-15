@@ -1,10 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Taxi</h1>
-  <ul>
-    <li>num_cars {{ num_cars }}</li>
-    <li>num_drivers {{ num_drivers }}</li>
-    <li>num_manufacturers {{ num_manufacturers }}</li>
-  </ul>
+	<ul class="content">
+		<li>Number of cars: {{ num_cars }}</li>
+		<li>Number of drivers: {{ num_drivers }}</li>
+		<li>Number of manufacturers: {{ num_manufacturers }}</li>
+	</ul>
 {% endblock %}

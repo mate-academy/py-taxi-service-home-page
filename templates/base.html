@@ -2,23 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Taxi Service</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% block title %}
+      <title>Taxi Service</title>
+    {% endblock %}
     {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
   </head>
   <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-3">
-          {% block sidebar %}
-            {% include "includes/sidebar.html" %}
-          {% endblock %}
-        </div>
-        <div class="col-sm-9">
-          {% block content %}{% endblock %}
-        </div>
-      </div>
-    </div>
+  {% block sidebar %}
+    {% include "includes/sidebar.html" %}
+  {% endblock %}
+  {% block content %}{% endblock %}
   </body>
 </html>
