@@ -1,6 +1,8 @@
 from django.shortcuts import render
 
 from taxi.models import Driver, Manufacturer, Car
+
+
 def index(request):
     num_driver = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
