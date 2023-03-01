@@ -6,12 +6,12 @@ def index(request):
     num_manufacturers = Manufacturer.objects.count()
     num_cars = Car.objects.count()
     context = {
-        "num_driver": num_driver,
+        "num_drivers": num_driver,
         "num_manufacturers": num_manufacturers,
         "num_cars": num_cars
     }
     return render(
         request,
         "taxi/index.html",
-        context=context
+        context=context,
     )
