@@ -1,0 +1,47 @@
+{% load static %}
+body{
+    background-image: url("../light_faded_background_85547_1600x1200.jpg");
+      background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: rgba(138, 132, 126, 0.2);
+}
+.main_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.content {
+    width: 75%;
+    rgba(224, 222, 201, 0.2);
+
+}
+
+.main_wrapper_inner {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+
+}
+
+.sidebar {
+    width: 20%;
+    background: rgba(213, 212, 211, 0.2);
+    border-radius: 10px;
+}
+ul{
+    margin-top: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+
+}
+a{
+    color: #5e5e5e;
+
+}
