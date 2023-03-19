@@ -17,4 +17,3 @@ def index(request):
     return render(
         request, "taxi/index.html", context=context
     )
-
