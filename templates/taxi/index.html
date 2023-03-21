@@ -1,6 +1,33 @@
 {% extends 'base.html' %}
 {%  block welcome %}
-  <h3>Welcome to <a class="weird-style" href="#">dry</a> taxi service!</h3>
+  <h3>Welcome to <a id="rainbow-text" href="#">dry</a> taxi service!</h3>
+
+<script>
+  var rainbowText = document.getElementById("rainbow-text");
+  var currentColor;
+
+  rainbowText.addEventListener("mouseover", function() {
+    var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet"];
+    currentColor = 0;
+
+    var intervalId = setInterval(function() {
+      rainbowText.style.color = colors[currentColor];
+      currentColor++;
+
+      if (currentColor === colors.length) {
+        currentColor = 0;
+      }
+    }, 100);
+
+    rainbowText.addEventListener("mouseout", function() {
+      clearInterval(intervalId);
+      rainbowText.style.color = currentColor === colors.length ? "" : colors[currentColor];
+    });
+  });
+</script>
+
+
+
 {%  endblock %}
 {% block content %}
     <ul>
