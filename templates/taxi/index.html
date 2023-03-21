@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 {%  block welcome %}
   <h3>Welcome to <a id="rainbow-text" href="#">dry</a> taxi service!</h3>
 
@@ -26,9 +26,8 @@
   });
 </script>
 
-
-
 {%  endblock %}
+
 {% block content %}
     <ul>
         <li>Number of cars: {{ num_cars }}</li>
