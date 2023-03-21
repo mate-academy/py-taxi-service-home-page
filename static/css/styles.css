@@ -1,0 +1,13 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none
+}
+.weird-style {
+  color: purple;
+  font-size: 2em;
+  text-decoration: underline wavy;
+}
