@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<head>
+    <title>Taxi Service</title>
+    <link rel="stylesheet" href="{% static "css/styles.css" %}">
+    <link rel="icon" href="{% static "css/icons/eco-car.png" %}">
+</head>
+ <body>
+    <header>
+      <h1>Green Wheels Taxi</h1>
+      <nav>
+          {% block sidebar %}
+          {% include "includes/sidebar.html" %}
+          {% endblock %}
+      </nav>
+    </header>
+    <main>
+      <section>
+          {%  block content %}
+          {% endblock %}
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 GreenWheels</p>
+    </footer>
+ </body>
