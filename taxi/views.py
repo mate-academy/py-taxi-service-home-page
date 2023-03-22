@@ -1,7 +1,9 @@
+from urllib.request import Request
+
 from django.http import HttpResponse
 from django.shortcuts import render
+
 from taxi.models import Driver, Car, Manufacturer
-from urllib.request import Request
 
 
 def index(request: Request) -> HttpResponse:
