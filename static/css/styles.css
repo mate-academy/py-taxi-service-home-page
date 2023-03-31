@@ -1,0 +1,14 @@
+body {
+  margin-top: 20px;
+  background-color: #26aee5;
+
+}
+
+.sidebar-nav {
+  position: sticky;
+  padding-left: 1em;
+  background-color: rgba(159, 141, 141, 0.53);
+  text-align: left;
+  border-radius: 15px;
+  list-style-type: none;
+}
