@@ -9,7 +9,7 @@ Feel free to add more data using admin panel, if needed.
 
 In this task, you should implement the home page of the site.
 
-1. Inside `taxi_service.urls` add path to the `taxi.urls`. Don't forget or to specify `namespace`.
+1. Inside `taxi_service.urls` add path to the `taxi.urls`. Don't forget to specify `namespace`.
 2. Inside `taxi.urls` create a path for the home page. This
 page should open when you are accessing `http://127.0.0.1:8000/`. Give this
 path the name `index`.
