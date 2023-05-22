@@ -12,5 +12,4 @@ def index(request):
         "num_cars": num_cars,
     }
 
-    print('kek')
     return render(request, "taxi/index.html", context)
