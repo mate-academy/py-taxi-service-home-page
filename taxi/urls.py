@@ -1,0 +1,9 @@
+from django.urls import path, include
+from taxi.views import index
+
+urlpatterns = [
+    path("", view=index, name="index")
+]
+
+
+app_name = "taxi"
