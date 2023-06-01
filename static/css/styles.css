@@ -1,0 +1,17 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar {
+  display: flex; /* Use flexbox layout */
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove default padding */
+}
+
+.sidebar li {
+  margin-right: 10px; /* Add some spacing between list items */
+}
+
+.sidebar li:last-child {
+  margin-right: 0; /* Remove margin from the last list item */
+}
