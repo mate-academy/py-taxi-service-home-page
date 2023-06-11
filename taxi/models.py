@@ -7,8 +7,10 @@ class Manufacturer(models.Model):
     country = models.CharField(max_length=255)
 
     def __str__(self):
-        return f"manufacturer's name: {self.name} " \
-               f"(country of headquarter: {self.country})"
+        return (
+            f"manufacturer's name: {self.name} "
+            f"(country of headquarter: {self.country})"
+        )
 
 
 class Driver(AbstractUser):
