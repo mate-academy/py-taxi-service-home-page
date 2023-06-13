@@ -15,6 +15,6 @@ def index(request):
     }
     return render(
         request=request,
-        template_name='taxi/index.html',
+        template_name="taxi/index.html",
         context=context
     )
