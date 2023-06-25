@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(231, 230, 230);
+}
+
+.row {
+  margin-top: 60px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar ul li a{
+  text-decoration: none;
+  color: green;
+  font-size: 1.2em;
+}
+
+.sidebar ul li a:hover {
+  background-color: #ddcfcf;
+}
+
+.content {
+  font-size: 1.5em;
+}
