@@ -1,0 +1,23 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    background-color: gainsboro;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.header {
+    background-color: #000;
+    color: #fff;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+}
