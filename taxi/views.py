@@ -1,9 +1,12 @@
+from typing import Callable
+
+from django.http import HttpRequest
 from django.shortcuts import render
+
 from .models import Manufacturer, Driver, Car
-# Create your views here.
 
 
-def index(request):
+def index(request: HttpRequest) -> Callable:
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
     num_cars = Car.objects.count()
