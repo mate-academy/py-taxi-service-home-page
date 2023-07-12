@@ -1,0 +1,12 @@
+.content-wrapper {
+  margin-top: 20px;
+    margin-left: 5px;
+}
+.content-wrapper ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+.content-wrapper li {
+  margin-bottom: 10px;
+}
