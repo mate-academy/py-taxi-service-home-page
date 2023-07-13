@@ -1,0 +1,12 @@
+.sidebar{
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+body{
+    padding: 30px;
+}
