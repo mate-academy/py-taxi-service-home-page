@@ -1,3 +1,6 @@
-from django.shortcuts import render
 
-# Create your views here.
+from taxi.models import Driver
+
+
+def index(request):
+    drivers = Driver.objects.count()
