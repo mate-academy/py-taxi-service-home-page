@@ -1,10 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  {% block title %}
+  <title>Taxi Service</title>
+  {% endblock %}
+
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-$END$
+  <div class="sidebar">
+    {% block sidebar %}
+      {% include "includes/sidebar.html" %}
+    {% endblock %}
+   </div>
+
+  <div class="content">
+    <h1>Some content</h1>
+    {% block content %}
+    {% endblock %}
+  </div>
 </body>
 </html>
