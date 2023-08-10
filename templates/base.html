@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taxi Service</title>
+  {% load static %}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-3">
+      {% include 'includes/sidebar.html' %}
+      {% block sidebar %}
+      {% endblock %}
+    </div>
+  </div>
+</div>
+<div class="col-md-9">
+  {% block content %}
+  {% endblock %}
+</div>
+</body>
+</html>
