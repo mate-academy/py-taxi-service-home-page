@@ -1,13 +1,14 @@
+from django.contrib.auth import get_user_model
 from django.http import HttpResponse
 from django.shortcuts import render
 
-from taxi import models
+from taxi.models import Manufacturer, Car
 
 
 def index(request):
-    num_drivers = models.Driver.objects.count()
-    num_manufacturers = models.Manufacturer.objects.count()
-    num_cars = models.Car.objects.count()
+    num_drivers = get_user_model().objects.count()
+    num_manufacturers = Manufacturer.objects.count()
+    num_cars = Car.objects.count()
     context = {
         "num_drivers": num_drivers,
         "num_manufacturers": num_manufacturers,
