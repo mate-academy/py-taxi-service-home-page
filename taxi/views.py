@@ -15,6 +15,3 @@ def index(request: dict):
         "taxi/index.html",
         context=context
     )
-
-
-
