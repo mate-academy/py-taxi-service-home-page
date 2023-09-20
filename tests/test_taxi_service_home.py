@@ -15,7 +15,7 @@ class HomePageTests(TestCase):
         num_drivers = get_user_model().objects.count()
         num_cars = Car.objects.count()
         num_manufacturers = Manufacturer.objects.count()
-        print(response)
+
         self.assertContains(response, "Home page")
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, "taxi/index.html")
