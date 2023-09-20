@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="mt-4">
+    <h1>Taxi Service</h1>
+    <p>Welcome!</p>
+    <h3>Our results:</h3>
+    <ul>
+        <li>Number of cars: {{ num_cars }}</li>
+        <li>Number of drivers: {{ num_drivers }}</li>
+        <li>Number of manufacturers: {{ num_manufacturers }}</li>
+    </ul>
+  </div>
+{% endblock %}
