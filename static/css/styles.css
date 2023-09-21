@@ -6,14 +6,17 @@ body {
     font-family: Helvetica, sans-serif;
 }
 
+li{
+    margin-bottom: 5px;
+}
+.sidebar-nav li{
+    margin-bottom: 10px;
+}
+
 .sidebar-nav {
     font-size: 20px;
     padding: 0;
     list-style: none;
-}
-
-li{
-    margin-bottom: 10;
 }
 
 a{
@@ -23,4 +26,8 @@ a{
 a:hover {
     color: lawngreen;
     text-decoration: none;
+}
+
+.col-sm-9{
+    margin-top: 10px;
 }
