@@ -1,0 +1,9 @@
+body {
+    margin-top: 20px;
+    background-color: papayawhip;
+}
+
+.sidebar-nav {
+    padding: 10px;
+    list-style: none;
+}
