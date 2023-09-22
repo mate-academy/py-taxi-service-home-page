@@ -1,0 +1,39 @@
+body {
+    padding: 30px;
+    margin-top: 20px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Helvetica, sans-serif;
+}
+
+h1{
+color: #90ee90;
+}
+
+li{
+    margin-bottom: 5px;
+    color : #afeeee;
+}
+
+.sidebar-nav li{
+    margin-bottom: 10px;
+}
+
+.sidebar-nav {
+    font-size: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    color: #ffffff;
+}
+
+a:hover {
+    color: #7cfc00;
+    text-decoration: none;
+}
+
+.col-sm-9 {
+    margin-top: 10px;
+}
