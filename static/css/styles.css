@@ -1,0 +1,16 @@
+.sidebar {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.content {
+    font-size: 30px;
+    width: 50%;
+    height: 50%;
+}
