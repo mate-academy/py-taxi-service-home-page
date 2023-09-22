@@ -1,0 +1,12 @@
+body {
+    margin-top: 2%;
+    background-color: aliceblue;
+}
+
+.sidebar {
+    background-color: floralwhite;
+    border: solid;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+}
