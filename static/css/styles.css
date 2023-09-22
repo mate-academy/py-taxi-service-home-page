@@ -1,0 +1,13 @@
+body {
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.sidebar_nav {
+    list-style: none;
+    background: #f3ffe6;
+}
+
+.content {
+    list-style: none;
+}
