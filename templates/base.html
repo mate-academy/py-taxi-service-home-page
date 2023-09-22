@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% block title %}
+      <title>Taxi Service</title>
+  {% endblock %}
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<h2>Welcome to the taxi service!</h2>
+<h5>Statistics by quantity</h5>
+{% block sidebar %}
+  {% include "includes/sidebar.html" %}
+{% endblock %}
+{% block content %}
+{% endblock %}
+</body>
+</html>
