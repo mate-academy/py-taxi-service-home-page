@@ -19,8 +19,6 @@ class Driver(AbstractUser):
 
     class Meta:
         ordering = ["last_name", ]
-        verbose_name = "driver"
-        verbose_name_plural = "drivers"
 
     def __str__(self) -> str:
         return f"{self.username} - {self.first_name} {self.last_name}"
