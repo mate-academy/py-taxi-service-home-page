@@ -1,0 +1,40 @@
+.sidebar, .content {
+    padding: 20px;
+}
+
+.sidebar {
+    background-color: darkgreen;
+    color: #FFF;
+    width: 250px;
+    float: left;
+    padding: 15px;
+}
+
+.content {
+    margin-left: 260px;
+}
+
+.sidebar a {
+    color: #FFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 16px;
+    line-height: 1.5;
+}
