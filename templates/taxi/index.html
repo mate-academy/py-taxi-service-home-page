@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 offset-md-2">
+        <div class="card">
+          <div class="card-header">
+            <h2 class="mb-0">Information from our DB:</h2>
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li class="list-group-item">
+                <strong>Number of cars:</strong> {{ num_cars }}
+              </li>
+              <li class="list-group-item">
+                <strong>Number of drivers:</strong> {{ num_drivers }}
+              </li>
+              <li class="list-group-item">
+                <strong>Number of manufacturers:</strong> {{ num_manufacturers }}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
