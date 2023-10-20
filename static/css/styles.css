@@ -1,0 +1,33 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.nav__link:link {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: purple;
+}
+
+.nav__link:active {
+    text-decoration: underline;
+}
+
+.title {
+    color: cornflowerblue;
+    font-weight: 800;
+}
+
+.info {
+    list-style: none;
+    color: cornflowerblue;
+}
+
+
