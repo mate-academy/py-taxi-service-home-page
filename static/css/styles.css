@@ -1,0 +1,31 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.nav__link {
+    color: coral;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: mediumseagreen;
+}
+
+.nav__link:active {
+    text-decoration: underline;
+}
+
+.title {
+    color: coral;
+    font-weight: 700;
+}
+
+.info {
+    list-style: none;
+    color: coral;
+}
