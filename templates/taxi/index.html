@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block breadcrumbs %}
+    <div class="breadcrumbs__item">Home page:</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row">
+        <h1>Home page</h1>
+        <p>Welcome to the home page</p>
+    </div>
+    <div class="row">
+        <div class="col home-info">
+            <h4>Home content: </h4>
+            <ul>
+                <li>Number drivers: {{ num_drivers }}</li>
+                <li>Number manufacturers: {{ num_manufacturers }}</li>
+                <li>Number cars: {{ num_cars }}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
