@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: 60px auto;
+}
+
+.count_items-list .list-item{
+    font-size: 18px;
+}
+.sidebar-list .list-item {
+    font-size: 21px;
+}
