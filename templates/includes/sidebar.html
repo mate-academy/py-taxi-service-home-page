@@ -5,17 +5,21 @@
 {% endblock %}
 
 {% block sidebar %}
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <ul class="navbar-nav">
-          <li><a class="nav-link active font-weight-bold" href="#">Home page</a></li>
-          <li><a class="nav-link active font-weight-bold" href="#">Manufacturers</a></li>
-          <li><a class="nav-link active font-weight-bold" href="#">Cars</a></li>
-          <li><a class="nav-link active font-weight-bold" href="#">Drivers</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <div class="container-fluid m-3 col-3 row">
+    <ul class="nav flex-column list-unstyled">
+      <li class="nav-item">
+        <a class="nav-link active font-weight-bold" href="#">Home page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active font-weight-bold" href="#">Manufacturers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active font-weight-bold" href="#">Cars</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link active font-weight-bold" href="#">Drivers</a>
+      </li>
+    </ul>
+  </div>
 
 {% endblock %}
