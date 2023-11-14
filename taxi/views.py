@@ -12,4 +12,4 @@ def index(request: HttpRequest) -> HttpResponse:
         "num_manufacturers": num_manufacturers,
         "num_drivers": num_drivers,
     }
-    return render(request, 'taxi/index.html', context=context)
+    return render(request, "taxi/index.html", context=context)
