@@ -13,18 +13,3 @@ def index(request: HttpRequest) -> HttpResponse:
         "num_cars": num_cars
     }
     return render(request, "taxi/index.html", context=context)
-
-
-
-
-# в 4 перевірити: Don't forget to do all necessary steps so that Django can serve these static files.
-# в 5 куда то додавати: Edit settings so that engine knows where to look for template source files.
-# 6  Load static and import styles.css
-#
-#
-#
-#
-
-
-
-
