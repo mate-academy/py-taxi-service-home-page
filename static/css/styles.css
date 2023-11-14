@@ -1,0 +1,25 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f2f2f2;
+    float: left;
+}
+
+.content {
+    width: 80%;
+    float: right;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+}
