@@ -23,20 +23,20 @@ template. Create directory `static` next to the directory `taxi`. Inside this
 directory create a file with the following path `css/styles.css`. Don't forget to do all necessary steps so that Django can serve these static files.
 5. Create directory `templates` next to the directory `taxi`. There you will
 store templates for pages. Edit settings so that engine knows where to look for template source files.
-6. Всередині каталогу `templates` створіть шаблон `base.html`, він є батьківським
-шаблон, інші шаблони розширять `base.html`. Всередині `base.html`:
-   - Всередині `<head>`:
-      - Створіть блок `title` із заголовком `Taxi Service` всередині
-      - Завантажте статику та імпортуйте `styles.css`
-   - Всередині `<body>`:
-      - Створити блок `sidebar`
-      - Створення блоку `content`
-7. Всередині `templates` створіть каталог `taxi`. Там ви будете зберігати шаблони
-для програми `таксі`. Створіть там `index.html`. Всередині `index.html`:
-    - Замінити блок `content` і розмістити (у вигляді списку) інформацію про:
-        - Кількість автомобілів
-        - Кількість водіїв
-        - Кількість виробників
+6. Inside directory `templates` create template `base.html`, it is a parent 
+template, other templates will extend `base.html`. Inside `base.html`:
+   - Inside `<head>`:
+      - Create block `title` with `Taxi Service` title inside
+      - Load static and import `styles.css`
+   - Inside `<body>`:
+      - Create block `sidebar`
+      - Create block `content`
+7. Inside `templates` create a directory `taxi`. There you will store templates
+for the app `taxi`. Create `index.html` there. Inside `index.html`:
+    - Override block `content` and place (as a list) information about:
+        - Number of cars
+        - Number of drivers
+        - Number of manufacturers
 8. Inside `templates` create a directory `includes`. There you will store includes. 
 Create `sidebar.html` there. Inside `sidebar.html`:
     - Write realization of `sidebar` include that must have a list of empty links:
