@@ -9,10 +9,12 @@
   <link rel="stylesheet" href="{% static "css/styles.css" %}">
 </head>
 <body>
-{% block sidebar %}
-  {% include "includes/sidebar.html" %}
-{% endblock sidebar %}
-{% block content %}
-{% endblock content %}
+<div class="container">
+  {% block sidebar %}
+    {% include "includes/sidebar.html" %}
+  {% endblock sidebar %}
+  {% block content %}
+  {% endblock content %}
+</div>
 </body>
 </html>
