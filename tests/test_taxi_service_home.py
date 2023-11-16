@@ -1,10 +1,14 @@
 import os
+import django
 
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 from django.urls import reverse
 
 from taxi.models import Car, Manufacturer
+
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "taxi_service.settings")
+django.setup()
 
 TestCase.fixtures = ["taxi_service_db_data.json", ]
 
