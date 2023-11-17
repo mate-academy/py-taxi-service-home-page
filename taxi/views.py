@@ -1,8 +1,6 @@
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
-import os
-
 from .models import Driver, Manufacturer, Car
 
 
