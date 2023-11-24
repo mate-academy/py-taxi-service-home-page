@@ -1,0 +1,31 @@
+.sidebar {
+    margin-right: 50px;
+}
+
+.sidebar_list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sidebar_link {
+    display: inline-block;
+    text-decoration: none;
+    color: dodgerblue;
+    border: 1px solid magenta;
+    text-align: center;
+    width: 150px;
+    padding: 10px 0;
+
+}
+
+a:hover {
+    color: red;
+}
+
+.home_page {
+    display: flex;
+}
+
+.page-home {
+    margin-left: 20px;
+}
