@@ -1,0 +1,11 @@
+body {
+    margin: 10px;
+    background-color: orange;
+    color: dimgray;
+}
+
+.sidebar-nav {
+    list-style: outside;
+    background-color: black;
+    margin: 10px;
+}
