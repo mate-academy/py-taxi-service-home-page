@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from .models import *
+from .models import Driver, Manufacturer, Car
 
 app_name = "taxi"
 
