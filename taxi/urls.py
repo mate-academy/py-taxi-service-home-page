@@ -1,8 +1,6 @@
-from django.contrib import admin
-from django.urls import path, include
+from django.urls import path
 from taxi.views import *
 
-print("taxi/urls")
-urlpatterns = [
-    path('', index, name="index"),  # 2
+urlpatterns = [  # 2
+    path("", index, name="index"),
 ]
