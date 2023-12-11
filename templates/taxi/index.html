@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<!--<div>-->
+<!--  <ul class="list">-->
+<!--    <li>Number of cars: {{ num_cars }}</li>-->
+<!--    <li>Number of drivers: {{ num_drivers }}</li>-->
+<!--    <li>Number of manufacturers: {{ num_manufacturers }}</li>-->
+<!--  </ul>-->
+<!--</div>-->
+<div class="card-container">
+  <ul class="ul-list">
+    <li class="card-item">
+      <div class="circle">{{ num_cars }}</div>
+      <div>Number of cars</div>
+    </li>
+    <li class="card-item">
+      <div class="circle">{{ num_drivers }}</div>
+      <div>Number of drivers</div>
+    </li>
+    <li class="card-item">
+      <div class="circle">{{ num_manufacturers }}</div>
+      <div>Number of manufacturers</div>
+    </li>
+  </ul>
+</div>
+{% endblock %}
