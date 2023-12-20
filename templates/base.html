@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Taxi Service</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    {% block content %}
+    {% endblock %}
+    {% block sidebar %}
+        <a href="">Home page</a>
+        <a href="">Manufacturers</a>
+        <a href="">Cars</a>
+        <a href="">Drivers</a>
+    {% endblock %}
+</body>
+</html>
