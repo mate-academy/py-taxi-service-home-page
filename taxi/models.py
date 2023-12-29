@@ -18,7 +18,6 @@ class Manufacturer(models.Model):
 
 class Driver(AbstractUser):
     license_number = models.CharField(max_length=255, blank=False, null=False)
-    username = models.CharField(max_length=255, blank=True, unique=True)
 
     class Meta:
         ordering = ("username", )
@@ -28,7 +27,7 @@ class Driver(AbstractUser):
 
 
 class Car(models.Model):
-    model = models.CharField(max_length=255, blank=True, null=True)
+    model = models.CharField(max_length=255)
     manufacturer = models.ForeignKey(
         Manufacturer,
         on_delete=models.CASCADE,
