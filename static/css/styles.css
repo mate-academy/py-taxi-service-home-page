@@ -1,0 +1,25 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.row {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    padding: 10px;
+}
+
+.content {
+    list-style: none;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
