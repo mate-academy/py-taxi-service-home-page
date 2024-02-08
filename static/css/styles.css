@@ -1,0 +1,14 @@
+.sidebar_nav {
+    display: block;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    margin-left: 900px;
+}
+li {
+    display: inline;
+    padding: 2px;
+    margin: 5px;
+    border-style: outset solid;
+    border-radius: 5px;
+}
