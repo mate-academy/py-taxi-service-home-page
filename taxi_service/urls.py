@@ -20,6 +20,5 @@ from taxi.views import index
 
 urlpatterns = [
     path("admin/", admin.site.urls),
-    path("", index, name="index"),
     path("taxi/", include("taxi.urls", namespace="taxi")),
 ]
