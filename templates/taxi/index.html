@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+  <div class="container">
+    <div class="card">
+      <div class="card-header">
+        {% block page-header %}
+        <h1 class="card-title">Home page</h1>
+        {% endblock %}
+      </div>
+      <div class="card-body">
+        {% block page-content %}
+        <ul class="list-group">
+          <li class="list-group-item">Count of drivers: <span class="badge bg-primary">{{ num_drivers }}</span></li>
+          <li class="list-group-item">Count of manufacturers: <span class="badge bg-primary">{{ num_manufacturers }}</span></li>
+          <li class="list-group-item">Count of cars: <span class="badge bg-primary">{{ num_cars }}</span></li>
+        </ul>
+        {% endblock %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
