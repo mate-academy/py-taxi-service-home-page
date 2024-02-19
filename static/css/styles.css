@@ -1,0 +1,13 @@
+body {
+    margin: 20px;
+}
+
+.sidebar-nav {
+    margin-top: 10px;
+    padding: 10px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border: 1px solid #626262;
+    border-radius: 10px;
+    width: 80%;
+}
