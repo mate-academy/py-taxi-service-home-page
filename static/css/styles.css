@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+    background: black;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
