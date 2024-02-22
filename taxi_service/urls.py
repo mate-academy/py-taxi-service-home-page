@@ -19,6 +19,5 @@ from django.urls import path, include
 from taxi.views import index
 
 urlpatterns = [
-    path("taxi/", include("taxi.urls",  namespace="taxi"))
+    path("taxi/", include("taxi.urls", namespace="taxi"))
 ]
-
