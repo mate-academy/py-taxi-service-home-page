@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
