@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c4dce8;
+}
+
+head {
+    background-color: #609ab6;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sidebar {
+    margin: auto;
+    width: 500px;
+}
+
+.sidebar__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    color: #fff;
+}
+
+.sidebar__item {
+    list-style: none;
+}
+
+.sidebar__item a {
+    color: brown;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.information__item {
+    margin-bottom: 10px;
+}
