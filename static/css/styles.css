@@ -1,3 +1,10 @@
-body{
-    background-color: rgba(239, 170, 241, 0.8);
+body {
+    background-color: rgba(226, 206, 227, 0.8);
+    margin-top: 20px;
+    padding: 0;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
 }
