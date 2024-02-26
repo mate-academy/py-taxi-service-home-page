@@ -1,12 +1,7 @@
 from django.shortcuts import render
-from django.views.generic import TemplateView
 from django.http import HttpResponse, HttpRequest
 
 from taxi.models import Driver, Manufacturer, Car
-
-
-class HomePageView(TemplateView):
-    template_name = "taxi/index.html"
 
 
 def index(request: HttpRequest) -> HttpResponse:
