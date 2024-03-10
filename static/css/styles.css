@@ -1,0 +1,15 @@
+body {
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-group {
+  max-width: 400px;
+}
+
+.nav {
+  flex-direction: column;
+}
