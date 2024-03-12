@@ -1,0 +1,9 @@
+body {
+    margin-top: 20px;
+}
+
+.content {
+    background-color: #a9a9a92e;
+    color: currentcolor;
+    border-radius: 9px;
+}
