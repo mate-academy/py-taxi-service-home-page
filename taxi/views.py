@@ -11,4 +11,4 @@ def index(request) -> HttpResponse:
         "num_cars": Car.objects.count(),
     }
 
-    return render(request, 'taxi/index.html', context=context)
+    return render(request, "taxi/index.html", context=context)
