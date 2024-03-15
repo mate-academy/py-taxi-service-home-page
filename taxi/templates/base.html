@@ -1,0 +1,19 @@
+<!DOCTYPE "html">
+<html lang="en">
+    <meta charset="UTF-8">
+    {% block title %}
+    <title>Example Title</title>
+    {% endblock %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</html>
+<body>
+  <div id="sidebar">
+    {% block sidebar %}
+      {% include "includes/sidebar.html" %}
+    {% endblock %}
+  </div>
+  <div id="content">
+      {% block content %}{% endblock %}
+  </div>
+</body>
