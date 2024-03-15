@@ -1,0 +1,33 @@
+html {
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    display: inline-block;
+    background-color: #444;
+}
+
+.nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav__link {
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.body__list {
+    background-color: antiquewhite;
+}
+
+.body__item {
+    padding: 10px;
+}
