@@ -1,0 +1,18 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    font-size: 30px
+    }
+
+h2 {
+    color: black;
+}
+
+.links {
+    color: black;
+    padding: 2px
+}
+
+li {
+    padding: 5px
+}
