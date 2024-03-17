@@ -1,16 +1,18 @@
 <div class="col-sm-3">
-  <ul class="sidebar-nav">
-    <li>
-      <a href="{% url "taxi:index" %}">Home</a>
-    </li>
-    <li>
-      <a href="#">All Manufacturer</a>
-    </li>
-    <li>
-      <a href="#">All drivers</a>
-    </li>
-    <li>
-      <a href="#">All cars</a>
-    </li>
-  </ul>
+
+  <div class="sidebar-nav shadow-sm bg-white" id="sidebar-wrapper">
+
+    <div class="sidebar-heading border-bottom bg-light logo">
+      Taxi
+    </div>
+
+    <div class="list-group list-group-flush">
+      <a class="list-group-item list-group-item-action list-group-item-light p-3" href="{% url "taxi:index" %}">Home</a>
+      <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">All Manufacturer</a>
+      <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">All drivers</a>
+      <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#">All cars</a>
+    </div>
+
+  </div>
+
 </div>
