@@ -4,7 +4,6 @@ from django.contrib.auth.models import AbstractUser
 from taxi_service import settings
 
 
-
 class Manufacturer(models.Model):
     name = models.CharField(max_length=255, unique=True)
     country = models.CharField(max_length=255)
@@ -19,4 +18,6 @@ class Car(models.Model):
     manufacturer = models.ForeignKey(
         Manufacturer, on_delete=models.CASCADE, related_name="cars"
     )
-    drivers = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name="cars")
+    drivers = models.ManyToManyField(
+        settings.AUTH_USER_MODEL, related_name="cars"
+    )
