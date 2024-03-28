@@ -1,0 +1,33 @@
+body {
+    margin-top: 20px;
+    background-color: rgba(28, 110, 164, 0.17);
+}
+
+h1 {
+    color: darkgoldenrod;
+    font-size: 50px;
+}
+
+li {
+    color: darkcyan;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.remove-list-indicator-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav {
+    padding: 20px;
+    line-height: 35px;
+}
+
+.index-nav {
+    font-size: 30px;
+}
