@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+  <title>Taxi service</title>
+{% endblock %}
+
+
+{% block sidebar %}
+  {% include "includes/sidebar.html" %}
+{% endblock %}
+
+
+{% block content %}
+  <h1>Home page</h1>
+  <h3>Db content:</h3>
+  <ul>
+    <li>Num cars: {{ num_cars }}</li>
+    <li>Num manufacturers: {{ num_manufacturers }}</li>
+    <li>Num drivers: {{ num_drivers }}</li>
+  </ul>
+{% endblock %}
