@@ -7,14 +7,17 @@
     <title>Taxi service</title>
     {% endblock %}
     {% load static %}
-    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="static/css/styles.css">
 </head>
 <body>
-  <h1 class="title">Wlecome piwates</h1>
+  <div class="title">
+    <h1>Taxi service</h1>
+  </div>
   {% block "sidebar" %}
     {% include "includes/sidebar.html" %}
   {% endblock %}
-    {% block "content" %}
+  {% block "content" %}
+
   {% endblock %}
 </body>
 </html>

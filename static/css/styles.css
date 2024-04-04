@@ -1,6 +1,10 @@
+body {
+  background-color: beige;
+}
+
 .title {
   margin: 30;
-  background-color: aquamarine;
+  background-color: rgb(12, 255, 174);
 }
 
 .red {
