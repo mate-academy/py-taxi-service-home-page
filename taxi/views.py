@@ -11,4 +11,4 @@ def index(request: HttpRequest) -> HttpResponse:
     context = {"num_cars": num_cars,
                "num_drivers": num_drivers,
                "num_manufacturers": num_manufacturers}
-    return render(request, template_name="taxi\index.html", context=context)
+    return render(request, template_name="taxi/index.html", context=context)
