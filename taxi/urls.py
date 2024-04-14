@@ -5,7 +5,7 @@ from taxi_service import settings
 from taxi.views import index
 
 urlpatterns = [
-                  path('', index, name='index'),
-              ] + static(settings.STATIC_URL)
+    path("", index, name="index"),
+] + static(settings.STATIC_URL)
 
-app_name = 'taxi'
+app_name = "taxi"
