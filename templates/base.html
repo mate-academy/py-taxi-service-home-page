@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+    <title>Taxi Service</title>
+</head>
+<body>
+    {% block sidebar %}
+        {% include "include/sidebar.html" %}
+    {% endblock %}
+    {% block content %}
+    {% endblock %}
+</body>
+</html>
