@@ -1,0 +1,9 @@
+body {
+    background-color: #ffe3b6;
+}
+
+.sidebar-nav {
+    list-style: none;
+    font-style: italic;
+    text-decoration: none;
+}
