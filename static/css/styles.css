@@ -1,0 +1,14 @@
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5)),
+    url("https://thumbs.dreamstime.com/b/small-cute-pink-car-isolated-white-d-illustration-109085244.jpg");
+    background-size: 150px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.col-sm-3 {
+    background-color: white;
+}
