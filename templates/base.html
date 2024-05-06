@@ -1,0 +1,14 @@
+<head>
+  {% block title %}
+    <title>Taxi Service</title>
+  {% endblock %}
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+{% block sidebar %}
+  {% include 'includes/sidebar.html' %}
+{% endblock %}
+{% block content %}
+{% endblock %}
+</body>
