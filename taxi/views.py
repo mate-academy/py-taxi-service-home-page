@@ -1,7 +1,7 @@
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
-from .models import Car, Manufacturer, Driver
+from taxi.models import Car, Manufacturer, Driver
 
 
 # Create your views here.
