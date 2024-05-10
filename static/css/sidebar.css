@@ -1,0 +1,12 @@
+.sidebar-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.sidebar-menu li {
+    padding: 8px 0;
+}
+.sidebar-menu li a {
+    text-decoration: none;
+    color: #333;
+}
