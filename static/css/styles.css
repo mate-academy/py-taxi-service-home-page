@@ -1,0 +1,17 @@
+body {
+    margin-top: 20px;
+    background-color: rosybrown;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.name {
+    color: green;
+}
+
+.title {
+    color: yellowgreen;
+}
