@@ -20,4 +20,6 @@ taxi/admin.py
 taxi/apps.py
 taxi/models.py
 taxi/tests.py
-.gitignore
+manage.py
+taxi_service_db_data.json
+tests
