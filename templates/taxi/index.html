@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <section class="statistic">
+    <h2 class="page-title">Taxi statistic</h2>
+
+    <ul class="info-list">
+      <li class="info-list_item">
+        <span>Number of cars:</span> <span>{{ num_cars }}</span>
+      </li>
+      <li class="info-list_item">
+        <span>Number of drivers:</span> <span>{{ num_drivers }}</span>
+      </li>
+      <li class="info-list_item">
+        <span>Number of manufacturers:</span> <span>{{ num_manufacturers }}</span>
+      </li>
+    </ul>
+  </section>
+{% endblock %}
