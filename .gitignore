@@ -13,10 +13,4 @@ taxi_service_db_data.json
 taxi_service/__init__.py
 taxi_service/asgi.py
 taxi_service/wsgi.py
-taxi/migrations
-taxi/__init__.py
-taxi/admin.py
-taxi/apps.py
-taxi/models.py
-taxi/tests.py
 tests
