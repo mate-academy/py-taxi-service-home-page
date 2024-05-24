@@ -1,0 +1,25 @@
+<!DOCTYPE "html">
+<html lang="en">
+<head>
+  {% block title %}
+    <title>Taxi Service</title>
+  {% endblock %}
+  {% load static %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{% static 'static/css/styles.css' %}">
+</head>
+<body>
+  <div class="row">
+    <div>
+      {% block sidebar %}
+        {% include 'includes/sidebar.html' %}
+      {% endblock %}
+    </div>
+    <div>
+      {% block content %}
+      {% endblock %}
+    </div>
+  </div>
+</body>
+</html>
