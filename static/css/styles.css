@@ -1,0 +1,12 @@
+body {
+    background: lightblue;
+}
+
+.sidebar,
+.content {
+    float: left;
+}
+
+.sidebar {
+    margin-right: 50px;
+}
