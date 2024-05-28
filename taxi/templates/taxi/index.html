@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{%block title%}
+  <title>Taxi Service</title>
+{%endblock%}
+
+{%block content%}
+  <h1 class="title">Main metrics</h1>
+
+  <ul class="metrics-list">
+    <li>Cars: {{ num_cars }}</li>
+    <li>Manufacturers: {{ num_manufacturers }}</li>
+    <li>Drivers: {{ num_drivers }}</li>
+  </ul>
+{%endblock%}
