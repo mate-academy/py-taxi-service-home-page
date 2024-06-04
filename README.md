@@ -5,7 +5,7 @@
 
   ```python manage.py loaddata taxi_service_db_data.json```.
 
-Feel free to add more data using admin panel, if needed.
+Feel free to add more data using admin panel, if needed
 
 In this task, you should implement the home page of the site.
 
