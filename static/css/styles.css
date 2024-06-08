@@ -1,0 +1,12 @@
+body {
+    display: flex;
+    background-color: antiquewhite;
+}
+
+.content {
+    margin-left: 20px;
+}
+
+.sidebar-nav {
+    list-style: none;
+}
