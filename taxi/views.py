@@ -4,11 +4,11 @@ from django.shortcuts import render
 from taxi.models import Driver, Manufacturer, Car
 
 
-def index(req: HttpRequest) -> HttpResponse:
+def index(request: HttpRequest) -> HttpResponse:
     context = {
         "num_drivers": Driver.objects.count(),
         "num_manufacturers": Manufacturer.objects.count(),
         "num_cars": Car.objects.count(),
     }
 
-    return render(req, "taxi/index.html", context)
+    return render(request, "taxi/index.html", context)
