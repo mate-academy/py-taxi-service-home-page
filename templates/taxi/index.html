@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}
+  <title>Home page</title>
+{% endblock %}
+{% block content %}
+  <h1>Main page</h1>
+  <p>Welcome to SmoothRide!</p>
+  <h3>Info:</h3>
+  <ul>
+    <li>Number our drivers: {{ num_drivers }}</li>
+    <li>Total cars number: {{ num_cars }}</li>
+    <li>Number of different cars: {{ num_manufactures }}</li>
+  </ul>
+{% endblock %}
