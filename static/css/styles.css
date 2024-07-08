@@ -1,0 +1,32 @@
+body {
+    background-color: #b59426;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6c757d;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 10px 0;
+}
+
+.container-fluid {
+    padding-top: 20px;
+}
