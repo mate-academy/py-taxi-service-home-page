@@ -14,7 +14,7 @@ body {
   flex-flow: row nowrap;
 }
 
-.first {
+.first-section {
   background: #d0d9f3;
   text-align: center;
   height: 300px;
