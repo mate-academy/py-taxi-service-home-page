@@ -1,6 +1,10 @@
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
-from .models import Driver, Manufacturer, Car
+from .models import (
+    Driver,
+    Manufacturer,
+    Car
+)
 
 
 def index(request: HttpRequest) -> HttpResponse:
