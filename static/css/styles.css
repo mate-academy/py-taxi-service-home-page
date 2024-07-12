@@ -1,0 +1,23 @@
+body {
+    margin-top: 20px;
+    background-color: teal;
+    color: aliceblue;
+}
+a {
+  color: aliceblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+.content{
+    background-color: darkslategray;
+}
+.col-sm-9{
+    background-color: dimgray;
+}
+.col-sm-3{
+    background-color: steelblue;
+}
