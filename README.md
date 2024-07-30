@@ -55,4 +55,4 @@ Create `sidebar.html` there. Inside `sidebar.html`:
 1) Attach screenshots to the comment, NOT in commit. 
 2) It's important to **attach images** not links to them. See example:
 
-![image](https://mate-academy-images.s3.eu-central-1.amazonaws.com/python_pr_with_images.png)
+
