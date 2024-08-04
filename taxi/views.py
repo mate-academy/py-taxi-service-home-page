@@ -15,4 +15,3 @@ def index(request: HttpRequest) -> HttpResponse:
     }
 
     return render(request, "taxi/index.html", context)
-
