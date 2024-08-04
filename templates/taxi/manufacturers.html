@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Manufacturers: </h1>
+  <table class="table">
+    <thead class="thead-dark">
+    <tr>
+      <th>Manufacturer</th>
+      <th>Name</th>
+      <th>Country</th>
+    </tr>
+    </thead>
+  
+    {% for manufacturer in manufacturers %}
+      <tr>
+        <th>{{ forloop.counter }}</th>
+        <th>{{ manufacturer.name }}</th>
+        <th>{{ manufacturer.country }}</th>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}
