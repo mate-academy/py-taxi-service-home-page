@@ -15,3 +15,31 @@ def index(request: HttpRequest) -> HttpResponse:
     }
 
     return render(request, "taxi/index.html", context=context)
+
+
+def drivers(request: HttpRequest) -> HttpResponse:
+    context = {
+        "drivers": Driver.objects.all()
+    }
+
+    return render(request, "taxi/drivers.html", context=context)
+
+
+def cars(request: HttpRequest) -> HttpResponse:
+    context = {
+        "cars": Car.objects.all()
+    }
+
+    return render(request, "taxi/cars.html", context=context)
+
+
+def manufacturers(request: HttpRequest) -> HttpResponse:
+    context = {
+        "manufacturers": Manufacturer.objects.all()
+    }
+
+    return render(
+        request,
+        "taxi/manufacturers.html",
+        context=context,
+    )
