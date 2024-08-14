@@ -1,12 +1,14 @@
-{% extends 'base.html' %}
+{% extends "base.html" %}
 
 {% block content %}
-<div class="container">
-    <h1>Welcome to the Taxi Service</h1>
-    <ul>
-        <li>Number of cars: {{ num_cars }}</li>
-        <li>Number of drivers: {{ num_drivers }}</li>
-        <li>Number of manufacturers: {{ num_manufacturers }}</li>
-    </ul>
-</div>
+  <h1>
+    Home page
+  </h1>
+  <p>Welcome to the taxi service</p>
+  <h3>DB content:</h3>
+  <ul>
+    <li>Cars: {{ num_cars }}</li>
+    <li>Users: {{ num_drivers }}</li>
+    <li>Manufacturers: {{ num_manufacturers }}</li>
+  </ul>
 {% endblock %}
