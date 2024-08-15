@@ -7,15 +7,23 @@ body {
     flex-direction: column;
 }
 
+.centered-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered-content {
+    text-align: center;
+    margin: 20px;
+}
+
 .sidebar-nav {
     padding: 10px;
     list-style: none;
     position: absolute;
     top: 20px;
     left: 20px;
-}
-
-.content {
-    text-align: center;
-    margin: 20px;
 }
