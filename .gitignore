@@ -1,11 +1,29 @@
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.swp
+*.swo
+*.egg-info/
+*.egg
+*.log
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.ENV/
+
+# IDEs and Editors
 .idea/
 .vscode/
-*.iml
-.env
-.DS_Store
-venv/
-.pytest_cache/
-**__pycache__/
-*.pyc
-app/db.sqlite3
+*.sublime-project
+*.sublime-workspace
+
+# Django
+*.sqlite3
 db.sqlite3
+media/
+staticfiles/

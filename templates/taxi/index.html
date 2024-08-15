@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1 class="centered-title">
+    Home page
+  </h1>
+  <p class="centered-content">Welcome to the taxi service</p>
+  <h3 class="centered-content">DB content:</h3>
+  <ul class="sidebar-nav">
+    <li>Cars: {{ num_cars }}</li>
+    <li>Users: {{ num_drivers }}</li>
+    <li>Manufacturers: {{ num_manufacturers }}</li>
+  </ul>
+{% endblock %}
