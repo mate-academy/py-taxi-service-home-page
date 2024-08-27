@@ -1,8 +1,19 @@
 body {
     margin-top: 20px;
+    margin-left: 20px;
+    background-color: #887637;
 }
 
 .sidebar-nav {
     padding: 0;
     list-style: none;
+}
+
+a {
+    color: #b5c3cc;
+}
+
+a:hover {
+    color: #ecf1f4;
+    text-decoration: none;
 }
