@@ -1,0 +1,18 @@
+body {
+    margin-top: 20px;
+}
+
+.main-title {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar-nav {
+    list-style: none;
+    font-size: larger;
+}
+
+a:hover {
+    text-decoration: none;
+}
