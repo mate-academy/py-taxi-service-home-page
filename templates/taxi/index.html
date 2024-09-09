@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  {% block title %}
+    <title>Home page</title>
+  {% endblock %}
+
+</head>
+<body>
+  <div id="content">
+    {% block content %}
+      <p1>Number of cars: {{num_cars }}</p1>
+      <p1>Number of drivers: {{ num_drivers }}</p1>
+      <p1>Number of manufacturers: {{ num_manufacturers }}</p1>
+  </div>
+  {% endblock %}
+</body>
+</html>
