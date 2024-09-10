@@ -1,19 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  {% block title %}
-    <title>Home page</title>
-  {% endblock %}
+{% extends "base.html" %}
 
-</head>
-<body>
-  <div id="content">
-    {% block content %}
-      <p1>Number of cars: {{num_cars }}</p1>
-      <p1>Number of drivers: {{ num_drivers }}</p1>
-      <p1>Number of manufacturers: {{ num_manufacturers }}</p1>
+{% block title %}
+  <title>Home page</title>
+{% endblock %}
+
+{% block content %}
+  <div class="row justify-content-center">
+    <div class="col-sm-9">
+      <p>Number of cars: {{ num_cars }}</p>
+      <p>Number of drivers: {{ num_drivers }}</p>
+      <p>Number of manufacturers: {{ num_manufacturers }}</p>
+    </div>
   </div>
-  {% endblock %}
-</body>
-</html>
+{% endblock %}
