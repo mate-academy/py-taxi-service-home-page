@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 from taxi.models import Manufacturer, Driver, Car
 
+
 def index(request) -> HttpResponse:
     num_drivers = Driver.objects.count()
     num_cars = Car.objects.count()
