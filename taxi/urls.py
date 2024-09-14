@@ -10,4 +10,3 @@ app_name = "taxi"
 urlpatterns = [
     path("", index, name="index"),
 ]
-
