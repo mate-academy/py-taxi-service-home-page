@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   {% block title %}
-  <title>Taxi Service</title>
+    <title>Taxi Service</title>
   {% endblock %}
   <meta charset="UTF-8">
   <meta name="viewport"
@@ -13,10 +13,13 @@
 </head>
 <body>
 {% block sidebar %}
-	{% include "includes/sidebar.html" %}
+  {% include "includes/sidebar.html" %}
 {% endblock %}
-{% block content %}
 
-{% endblock %}
+<div class="main-content">
+  {% block content %}
+  {% endblock %}
+</div>
+
 </body>
 </html>
