@@ -9,7 +9,7 @@ def index(request):
         request,
         context={
             "num_drivers": Driver.objects.count(),
-            "num_manufacturers": Driver.objects.count(),
+            "num_manufacturers": Manufacturer.objects.count(),
             "num_cars": Car.objects.count()
         },
         template_name="taxi/index.html"
