@@ -1,0 +1,10 @@
+body {
+    padding: 0;
+    background-color: coral;
+}
+
+.sidebar-nav {
+    font-size: 20px;
+    list-style: none;
+    padding-left: 0;
+}
