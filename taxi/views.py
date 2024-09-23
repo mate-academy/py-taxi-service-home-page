@@ -15,6 +15,6 @@ def index(request: HttpRequest) -> HttpResponse:
 
     return render(
         request,
-        "#",
+        "base.html",
         context=context
     )
