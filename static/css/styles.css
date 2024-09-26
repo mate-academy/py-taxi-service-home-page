@@ -1,0 +1,24 @@
+.sidebar {
+    background-color: #E25544;
+    color: #fff;
+    border-radius: 0 8px 8px 0;
+    padding: 20px;
+    height: 100vh;
+}
+
+.content {
+    background-color: cornsilk;
+    padding: 20px 40px;
+    color: #444;
+    font-size: 20px;
+}
+
+.welcome {
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+a {
+    color: #fff;
+}
