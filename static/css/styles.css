@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  flex: 1;
+  padding: 20px;
+}
+.content {
+  flex: 3;
+  padding: 20px;
+}
+.sidebar-nav{
+    font-size: 20px;
+    list-style: none;
+    border-left: 13px solid sandybrown;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: darkcyan;
+}
+
+.list-content{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 17px;
+}
+.item-content{
+    padding: 10px;
+}
