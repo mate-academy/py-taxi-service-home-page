@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h5>
+    Taxi service
+  </h5>
+
+  <ul class="list_of_count">
+    <li>Number of cars: {{ num_cars }}</li>
+    <li>Number of drivers: {{ num_drivers }}</li>
+    <li>Number of manufacturers: {{ num_manufacturers }}</li>
+    <br>
+    <p>You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.</p>
+  </ul>
+{% endblock %}
