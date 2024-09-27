@@ -31,7 +31,7 @@ template, other templates will extend `base.html`. Inside `base.html`:
    - Inside `<body>`:
       - Create block `sidebar`
       - Create block `content`
-7. Inside `templates` create a directory `taxi`. There you will store templates
+7. Inside `templates` creaManufacturerste a directory `taxi`. There you will store templates
 for the app `taxi`. Create `index.html` there. Inside `index.html`:
     - Override block `content` and place (as a list) information about:
         - Number of cars
