@@ -16,11 +16,14 @@ def index(request: HttpRequest) -> HttpResponse:
     }
     return render(request, "taxi/index.html", context=context)
 
+
 def manufacturers_view(request):
-    return render(request, 'taxi/manufacturers.html')
+    return render(request, "taxi/manufacturers.html")
+
 
 def cars_view(request):
-    return render(request, 'taxi/cars.html')
+    return render(request, "taxi/cars.html")
+
 
 def drivers_view(request):
-    return render(request, 'taxi/drivers.html')
+    return render(request, "taxi/drivers.html")
