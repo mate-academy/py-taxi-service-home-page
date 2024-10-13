@@ -10,7 +10,6 @@
   {% load static %}
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
 </head>
 <body>
 <div class="container-fluid">
@@ -23,6 +22,7 @@
 
         <div class="col-sm-9">
             {% block content %}
+              <p>this block has default content</p>
             {% endblock content %}
         </div>
     </div>
