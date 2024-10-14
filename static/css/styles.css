@@ -1,0 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 15px;
+  float: left;
+  list-style-type: none; /* Remove bullets */
+}
+
+.sidebar ul {
+  list-style-type: none; /* Remove bullets */
+}
+
+.content {
+  margin-left: 220px;
+  padding: 15px;
+}
