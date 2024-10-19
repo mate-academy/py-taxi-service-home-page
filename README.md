@@ -44,6 +44,7 @@ Create `sidebar.html` there. Inside `sidebar.html`:
         - Manufacturers
         - Cars
         - Drivers
+    - Anchor tags can be used as dummy links for this task, so the actual destination of the link doesn't matter
     - In `base.html` include `sidebar.html`, so all these links will be accessible on all pages.
 9. Check that you put empty lines at the end of each HTML file.
 10. Run server, open `http://127.0.0.1:8000/`, check if the information is there and if it is correct.
