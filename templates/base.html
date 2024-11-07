@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  {% block title %}
+    <title>Taxi Service</title>
+  {% endblock %}
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<header>
+  <h1>Welcome to TAXI</h1>
+</header>
+<div class="wrapper">
+  <aside>
+    {% block aside %} {% include "includes/sidebar.html" %} {% endblock %}
+  </aside>
+  <main>{% block content %} {% endblock %}</main>
+</div>
+<footer>
+  <h2>Footer</h2>
+</footer>
+</body>
+</html>
