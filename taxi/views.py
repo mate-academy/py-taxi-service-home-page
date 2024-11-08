@@ -1,5 +1,3 @@
-from lib2to3.fixes.fix_input import context
-
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
