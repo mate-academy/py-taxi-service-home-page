@@ -20,4 +20,3 @@ urlpatterns = [
     path("", views.index, name="home"),
     path("taxi/", include("taxi.urls", namespace="taxi")),
 ]
-
