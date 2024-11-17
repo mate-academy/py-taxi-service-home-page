@@ -1,13 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f0f0d0;
     margin: 0;
     padding: 0;
-}
-
-body {
-    margin-top: 20px;
-    background: blanchedalmond;
 }
 
 h1 {
@@ -18,25 +13,35 @@ p {
     color: #666;
 }
 
+/* Сайдбар */
 .sidebar {
+    margin: 20px;
     padding: 20px;
+    background-color: transparent;
+}
+
+
+.sidebar-nav {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-nav li {
+    margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+    display: block;
+    padding: 10px 15px;
     background-color: #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-}
-
-.sidebar a {
     text-decoration: none;
     color: #007bff;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-.sidebar a:hover {
-    text-decoration: none;
-}
-
-.sidebar-nav {
-    margin-left: 20px;
-    padding: 0;
-    list-style: none;
+.sidebar-nav a:hover {
+    background-color: #f0f0f0;
+    color: #0056b3;
 }
