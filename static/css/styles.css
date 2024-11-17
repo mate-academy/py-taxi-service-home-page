@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+    padding: 20px;
+}
+
+.list_block{
+    list-style: none;
+}
+
+.list_block a{
+    text-decoration: none;
+    color: black;
+}
+
+.list_block li:hover{
+    color: #25252d;
+    background-color: #eadda2;
+    text-decoration: overline;
+}
+
+.sidebar{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 60%;
+    font-size: 20px;
+    margin-right: 5%;
+    padding: 5px;
+}
