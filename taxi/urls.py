@@ -9,5 +9,3 @@ app_name = "taxi"
 urlpatterns = [
     path("", views.index, name="index"),
 ]
-
-
