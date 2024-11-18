@@ -1,0 +1,11 @@
+body {
+    font-family: Gilroy, sans-serif;
+    text-align: center;
+}
+.centered-headings {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+
