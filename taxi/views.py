@@ -1,10 +1,10 @@
-from django.http import HttpRequest
+from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
 
 from .models import Driver, Manufacturer, Car
 
 
-def index(request: HttpRequest) -> render:
+def index(request: HttpRequest) -> HttpResponse:
     context = {
         "num_drivers": Driver.objects.count(),
         "num_manufacturers": Manufacturer.objects.count(),
