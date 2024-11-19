@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: crimson;
+}
+
+.sidebar {
+    width: 250px;
+    color: coral;
+    position: sticky;
+    top: 0;
+}
