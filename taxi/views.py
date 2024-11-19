@@ -1,4 +1,4 @@
-from collections.abc import Callable
+from http.client import HTTPResponse
 
 from django.http import HttpRequest
 from django.shortcuts import render
@@ -6,7 +6,7 @@ from django.shortcuts import render
 from taxi.models import Driver, Manufacturer, Car
 
 
-def index(request: HttpRequest) -> Callable:
+def index(request: HttpRequest) -> HTTPResponse:
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
     num_cars = Car.objects.count()
