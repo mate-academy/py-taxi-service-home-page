@@ -19,5 +19,5 @@ from django.urls.conf import include
 
 urlpatterns = [
     path("admin/", admin.site.urls),  # моя адмін панель
-    path("", include('taxi.urls', namespace='taxi')),   # шлях із taxi.urls
+    path("", include("taxi.urls", namespace="taxi")),   # шлях із taxi.urls
 ]
