@@ -1,7 +1,7 @@
 from django.contrib.auth import get_user_model
 from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
-from taxi.models import *
+from taxi.models import Car, Manufacturer
 
 
 def index(request: HttpRequest) -> HttpResponse:
