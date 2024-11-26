@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <div class="header">
+    <h1>Home page</h1>
+  </div>
+{% endblock %}
+{% block content %}
+  <div class="col-10">
+    <ul>
+      <li>Number of cars: {{ num_cars }}</li>
+      <li>Number of drivers: {{ num_drivers }}</li>
+      <li>Number of manufacturers: {{ num_manufacturers }}</li>
+    </ul>
+  </div>
+{% endblock %}
