@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+  <title>Home page</title>
+{% endblock %}
+
+{% block content %}
+  <div class="row justify-content-center">
+    <div class="col-sm-9">
+      <p>Number of cars: {{ num_cars }}</p>
+      <p>Number of drivers: {{ num_drivers }}</p>
+      <p>Number of manufacturers: {{ num_manufacturers }}</p>
+    </div>
+  </div>
+{% endblock %}
