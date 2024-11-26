@@ -1,0 +1,9 @@
+body {
+    padding: 30px;
+}
+
+.sidebar-elems {
+    font-size: 20px;
+    padding: 10px 30px;
+    color: rgb(241, 237, 237);
+}
