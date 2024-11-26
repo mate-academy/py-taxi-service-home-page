@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 200px;
+    overflow-y: auto;
+    padding-top: 20px;
+    background-color: #84c7ff;
+}
+
+.sidebar-ul {
+  padding-inline-start: 0;
+}
+
+.sidebar-li {
+    padding: 10px;
+    list-style: none;
+}
+
+.content-li {
+    padding: 10px;
+    list-style: none;
+}
+
+.sidebar-li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sidebar-li a:hover {
+    color: #c3e2ff;
+}
+
+.my-content {
+    padding-top: 20px;
+}
