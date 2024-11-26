@@ -1,0 +1,33 @@
+body {
+    margin-top: 20px;
+    padding-left: 20px;
+    color: black;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.nav__link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: red;
+}
+
+.nav__link:active {
+    text-decoration: underline;
+}
+
+.title {
+    color: black;
+    font-weight: 700;
+}
+
+.info {
+    list-style: none;
+    color: black;
+}
