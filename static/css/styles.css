@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+
+.sidebar-nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.sidebar-item {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  float: left;
+}
+
+.sidebar-link {
+  color: white;
+}
