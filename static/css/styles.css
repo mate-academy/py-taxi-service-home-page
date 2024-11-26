@@ -1,0 +1,18 @@
+ul.sidebar {
+    list-style-type: none;
+
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+li.sidebar-item > a {
+    text-decoration: none;
+    color: #081d08;
+
+    transition: all .3s ease;
+}
+
+li.sidebar-item > a:hover {
+    color: #b64a4a;
+}
