@@ -32,3 +32,7 @@ class CarAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Manufacturer)
+
+
+def site(request):
+    return None
