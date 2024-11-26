@@ -1,0 +1,45 @@
+body{
+    background: url("../images/stock-vector-taxi-service-online-concept-taxi-service-application-on-mobile-web-banner-with-copy-space-1722074203.jpg");
+    background-size: cover;
+}
+.col-sm3{
+    padding: 30px 30px 30px 0;
+    margin-top: 250px;
+    margin-left: 50px;
+    ul{
+        list-style: none;
+        a {
+            font-size: 20px;
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+        }
+        li:hover a{
+                background-color: blanchedalmond;
+                color: grey;
+                padding: 5px;
+            }
+    }
+    background: dimgray;
+    border-radius: 5%;
+    border:2px solid lightgray;
+}
+.col-sm9{
+    background: dimgray;
+    padding: 10px;
+    border-radius: 5%;
+    justify-content: center;
+    margin-left: 350px;
+    color: white;
+    border:2px solid lightgray;
+    ul{
+        li{
+            padding: 5px;
+        }
+        li:hover {
+            background-color: blanchedalmond;
+            color: grey;
+        }
+        list-style: none;
+    }
+}
