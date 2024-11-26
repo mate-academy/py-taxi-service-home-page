@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}
+  <title>Home page</title>
+{% endblock %}
+
+{% block content %}
+  <div class="container mt-4">
+    <h1 class="display-4">Taxi</h1>
+    <h4 class="display-6 mb-4">Statistics info:</h4>
+    <ul class="list-group">
+      <li class="list-group-item">Number of drivers: {{ num_drivers }}</li>
+      <li class="list-group-item">Number of manufacturers: {{ num_manufacturers }}</li>
+      <li class="list-group-item">Number of cars: {{ num_cars }}</li>
+    </ul>
+  </div>
+{% endblock %}
