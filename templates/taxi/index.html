@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}
+  <title>Home page</title>
+{% endblock %}
+{% block content %}
+  <h1 class="modal-title">Taxi Service</h1>
+        <ul class="list-group-item-action">
+          <li>Num_drivers: {{ num_drivers }}</li>
+          <li>num_manufacturers: {{ num_manufacturers }}</li>
+          <li>num_cars: {{ num_cars }}</li>
+        </ul>
+{% endblock %}
