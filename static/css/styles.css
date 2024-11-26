@@ -1,0 +1,18 @@
+body {
+    background-color: plum;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 1em;
+    list-style: none;
+}
+
+li {
+    background: #ffffff;
+    margin: 0.5em 0;
+    padding: 1em;
+    border-radius: 5px;
+}
