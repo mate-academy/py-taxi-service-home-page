@@ -1,0 +1,18 @@
+body {
+    margin-top: 20px;
+    background-color: yellow;
+    background-image: url("https://thumbs.dreamstime.com/b/old-retro-yellow-toy-car-taxi-yellow-background-copy-space-travel-concept-old-retro-yellow-toy-car-taxi-yellow-154723603.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+}
+
+.sidebar-nav {
+    padding: 10px;
+    list-style: none;
+}
+
+.cars {
+    list-style: none;
+    font-size: 18px;
+}
