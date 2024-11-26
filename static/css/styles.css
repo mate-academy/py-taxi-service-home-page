@@ -1,0 +1,34 @@
+#sidebar-wrapper .list-group {
+    width: 15rem;
+}
+
+.list-group-item {
+    background-color: darkslategray;
+}
+
+.list-group-flush {
+    border-radius: 0;
+}
+
+.list-group {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: 0.25rem;
+    background-color: grey;
+}
+
+div {
+    display: block;
+    background-color: grey;
+}
+
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
