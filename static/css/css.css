@@ -1,0 +1,11 @@
+body {
+    padding: 20px;
+}
+.content {
+    padding: 0 40px;
+}
+.sidebar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
