@@ -1,0 +1,15 @@
+body {
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    padding: 20px;
+    font-size: 20px;
+}
+
+ul{
+    list-style: none;
+    padding: 20px;
+}
+
+.sidebar-nav {
+    padding: 10px;
+}
