@@ -1,0 +1,12 @@
+body {
+     margin-top: 20px;
+     background-color: white;
+     color: black;
+     font-size: 30px;
+}
+
+.content {
+    border: 1rem solid black;
+    background-color: grey;
+    color: white;
+}
