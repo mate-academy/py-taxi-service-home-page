@@ -1,0 +1,14 @@
+body {
+    margin-top: 20px;
+    background-color: silver;
+}
+
+.list_nav {
+    padding: 0;
+    list-style: none;
+}
+
+.content_list {
+    padding: 0;
+    list-style: none;
+}
