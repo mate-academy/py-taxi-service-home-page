@@ -1,0 +1,16 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar {
+    list-style: none;
+    margin-left: 20px;
+}
+
+.content {
+   margin-left: 60px;
+}
+
+.welcome {
+    margin-left: 15px;
+}
