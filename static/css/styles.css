@@ -1,0 +1,18 @@
+.sidebar-nav {
+    margin-top: 20px;
+}
+
+.base-home {
+    margin-top: 20px;
+    padding: 30px;
+    color: blue;
+}
+
+.content-index {
+    padding: 30px;
+    color: blue;
+}
+
+.content-index-ul {
+    font-size: medium;
+}
