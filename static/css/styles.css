@@ -1,0 +1,16 @@
+.title {
+    text-align: center;
+    font-size: 30px;
+    background-color: aqua;
+}
+.container {
+    display: flex;
+}
+.sidebar-nav {
+    width: 200px;
+    padding: 0;
+    list-style-type: none;
+}
+.content {
+    flex: 1;
+}
