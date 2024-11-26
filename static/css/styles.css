@@ -1,0 +1,9 @@
+body {
+    background-color: beige;
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
