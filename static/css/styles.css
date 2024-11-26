@@ -1,0 +1,8 @@
+body {
+    margin-top: 10px;
+}
+
+.list-group-item.active > a {
+    color: white;
+    text-decoration: none;
+}
