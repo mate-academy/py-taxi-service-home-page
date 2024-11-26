@@ -1,0 +1,17 @@
+body {
+    padding-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sidebar-nav {
+    list-style: none;
+    text-decoration: none;
+}
+
+.list_of_count {
+    list-style: none;
+    padding: 0
+}
