@@ -1,0 +1,45 @@
+html {
+    --header-height: 75px;
+    --footer-height: 100px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+.nav {
+    margin: 20px;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+}
+
+.content {
+    margin: 20px;
+    padding: 0 20px;
+    float: left;
+    width: 70%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--header-height);
+    background-color: yellow;
+    color: black;
+    font-size: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--footer-height);
+    line-height: var(--footer-height);
+    background-color: black;
+    color: yellow;
+    font-size: 25px;
+}
