@@ -1,0 +1,12 @@
+body {
+    background: lightblue;
+}
+ul {
+  list-style-type: none;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
