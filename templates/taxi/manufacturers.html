@@ -1,0 +1,12 @@
+<!-- templates/taxi/manufacturers.html -->
+
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Manufacturers</h1>
+    <ul>
+        {% for manufacturer in manufacturers %}
+            <li>{{ manufacturer.name }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
