@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block title %}
+        <title>Taxi Service</title>
+    {% endblock %}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <span class="navbar-brand" >Taxi Service</span>
+    </div>
+    <div class="row">
+        <div class="col-3 ml-auto mr-auto">
+            {% block sidebar %}
+                {% include "includes/sidebar.html" %}
+            {% endblock %}
+        </div>
+
+        <div class="col-9 ml-auto mr-auto">
+            {% block content %}
+                {% include "taxi/index.html" %}
+            {% endblock %}
+        </div>
+    </div>
+</div>
+</body>
+</html>
