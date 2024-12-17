@@ -1,0 +1,13 @@
+.sidebar {
+    color: whitesmoke;
+    background-color: grey;
+}
+
+.sidebar ul {
+
+    list-style: none;
+}
+
+a {
+    color: blanchedalmond;
+}
