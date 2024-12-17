@@ -14,4 +14,4 @@ def index(request: HttpRequest):
         'num_cars': num_cars,
     }
 
-    return render(request, "catalog/base.html", context=context)
+    return render(request, "base.html", context=context)
