@@ -9,9 +9,9 @@ def index(request: HttpRequest):
     num_cars = Car.objects.count()
 
     context = {
-        'num_drivers': num_drivers,
-        'num_manufacturers': num_manufacturers,
-        'num_cars': num_cars,
+        "num_drivers": num_drivers,
+        "num_manufacturers": num_manufacturers,
+        "num_cars": num_cars,
     }
 
     return render(request, "base.html", context=context)
