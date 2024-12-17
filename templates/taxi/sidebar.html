@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}
+     <title>Home page</title>
+{% endblock %}
+{% block sidebar %}
+     <ul>
+       <li><a href="/">Home</a></li>
+       <li><a href="/blog/">Blog</a></li>
+     </ul>
+{% endblock %}
+{% block content %}
+     <h1>Welcome to dashboard</h1>
+     <p>Number of drivers: {{ num_drivers }}</p>
+     <p>Number of manufacturers: {{ num_manufacturers }}</p>
+     <p>Numbers of cars: {{ num_cars }}</p>
+{% endblock %}
