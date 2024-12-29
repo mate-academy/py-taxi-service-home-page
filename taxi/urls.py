@@ -4,5 +4,5 @@ from taxi.views import index
 
 app_name = "taxi"
 urlpatterns = [
-    path("",index, name="index"),
+    path("", index, name="index"),
 ]
