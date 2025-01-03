@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+}
+
+.sidebar p {
+    font-weight: bold;
+}
+
+.sidebar a {
+    display: block;
+    margin: 10px 0;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    flex-grow: 1;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+.content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
