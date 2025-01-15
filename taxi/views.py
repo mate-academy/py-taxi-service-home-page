@@ -13,4 +13,4 @@ def index(request):
         'num_manufacturers': num_manufacturers,
         'num_cars': num_cars,
     }
-    return render(request, context=context, template_name='taxi/index.html')
+    return render(request, template_name='taxi/index.html', context=context,)
