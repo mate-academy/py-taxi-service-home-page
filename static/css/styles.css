@@ -1,0 +1,27 @@
+body {
+    font-family: "Roboto", "Lucida Grande", "DejaVu Sans", "Bitstream Vera Sans", Verdana, Arial, sans-serif;
+    background-color: #81d4fa;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    color: #5897fb;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+#sidebar {
+    background-color: #5b80b2;
+    color: #264b5d;
+    padding: 15px;
+    width: 200px;
+    float: left;
+    height: 100vh;
+}
+#content {
+    margin-left: 220px;
+    padding: 20px;
+}
