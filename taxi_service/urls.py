@@ -21,3 +21,4 @@ urlpatterns = [
     path("", include("taxi.urls", namespace="taxi")),
 
 ]
+як це працює namespace="taxi
