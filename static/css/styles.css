@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+.title {
+    text-align: center;
+    margin: 15px;
+}
+
+.side-bar-container {
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.side-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
