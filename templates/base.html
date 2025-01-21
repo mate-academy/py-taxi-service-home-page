@@ -1,28 +1,29 @@
-<!DOCTYPE html>
+<!DOCTYPE "html">
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  {% load static %}
-  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-  <title>{% block title %}Taxi Service{% endblock %}</title>
-</head>
-<body>
-  <aside class="sidebar">
-    {% block sidebar %}
-      {% include 'includes/sidebar.html' %}
-    {% endblock %}
-  </aside>
-  <section class="container">
-    <header>
-      <h1 class="title">{% block page_title %}Taxi Service{% endblock %}</h1>
-    </header>
+  <head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Taxi Service{% endblock %}</title>
 
-    <main>
-        <div class="content">
-          {% block content %}
-          {% endblock %}
-        </div>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+  </head>
+  <body class="bg-dark text-white">
+    <header class="header">
+      <h1 class="text-center bg-primary m-0">Taxi Service</h1>
+    </header>
+  <div class="d-flex">
+    <div class="d-flex flex-column flex-shrink-0 p-2" style="width: 180px;">
+      {% block sidebar %}
+        {% include 'includes/sidebar.html' %}
+      {% endblock %}
+    </div>
+    <main class="container-fluid">
+      <div class="content">
+        {% block content %}
+        {% endblock %}
+      </div>
     </main>
-  </section>
-</body>
+  </div>
+  </body>
 </html>
