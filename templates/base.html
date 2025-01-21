@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Taxi service</title>
+  {% block title %}
+    <title>Taxi service</title>
+  {% endblock %}
   {% load static %}
   <link rel="stylesheet" href="{% static "css/styles.css" %}">
 </head>
