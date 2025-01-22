@@ -1,0 +1,13 @@
+#sidebar {
+    width: 200px;
+    float: left;
+    background-color: #f8f8f8;
+    padding: 10px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#content {
+    margin-left: 210px;
+    padding: 10px;
+}
