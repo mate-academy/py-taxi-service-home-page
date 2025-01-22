@@ -1,6 +1,8 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 from .models import Driver, Manufacturer, Car
+
+
 def index(request):
     num_cars = Car.objects.count()
     num_drivers = Driver.objects.count()
@@ -13,6 +15,7 @@ def index(request):
     }
     return render(request, "taxi/index.html", context=context)
 
+
 def manufacturers_list(request):
     return HttpResponse("Заглушка для списка производителей")
 
@@ -23,5 +26,3 @@ def cars_list(request):
 
 def drivers_list(request):
     return HttpResponse("Заглушка для списка водителей")
-
-
