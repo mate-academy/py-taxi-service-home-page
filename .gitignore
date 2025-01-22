@@ -9,3 +9,4 @@ venv/
 *.pyc
 app/db.sqlite3
 db.sqlite3
+#Message for baddie: here I have all nessecary files to ignore
