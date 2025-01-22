@@ -1,0 +1,15 @@
+body{
+    background: #ffffcc;
+    padding: 50px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.nav {
+    list-style: none;
+    background: white;
+}
