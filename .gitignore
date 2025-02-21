@@ -9,7 +9,5 @@ venv/
 *.pyc
 app/db.sqlite3
 db.sqlite3
-.vscode/
 .python-version
 misc/
-.env
