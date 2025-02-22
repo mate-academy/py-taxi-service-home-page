@@ -25,5 +25,3 @@ urlpatterns = [
     path("taxi/", include("taxi.urls", namespace="taxi")),
     path("", index, name="index"),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-app_name = "taxi"
