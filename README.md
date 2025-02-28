@@ -17,11 +17,13 @@ path the name `index`.
     - count the number of all drivers with `num_drivers` variable
     - count the number of all manufacturers with `num_manufacturers` variable
     - count the number of all cars with `num_cars` variable 
-    - return `HttpResponse` with rendered template. Pass received data to this template (don't import `HttpResponse` if you use `render`, this import is unnecessary).
+    - return `HttpResponse` with rendered template. Pass received data to this template 
+   (don't import `HttpResponse` if you use `render`, this import is unnecessary).
 
 4. Before you create a template you have to create styles for the 
 template. Create directory `static` next to the directory `taxi`. Inside this 
-directory create a file with the following path `css/styles.css`. Don't forget to do all necessary steps so that Django can serve these static files.
+directory create a file with the following path `css/styles.css`. 
+Don't forget to do all necessary steps so that Django can serve these static files.
 5. Create directory `templates` next to the directory `taxi`. There you will
 store templates for pages. Edit settings so that engine knows where to look for template source files.
 6. Inside directory `templates` create template `base.html`, it is a parent 
