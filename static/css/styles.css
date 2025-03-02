@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  float: left;
+}
+
+.content {
+  margin-left: 220px;
+}
