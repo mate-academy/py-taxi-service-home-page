@@ -26,7 +26,7 @@ directory create a file with the following path `css/styles.css`. Don't forget t
 store templates for pages. Edit settings so that engine knows where to look for template source files.
 6. Inside directory `templates` create template `base.html`, it is a parent 
 template, other templates will extend `base.html`. Inside `base.html`:
-   - Inside `<head>`:
+   - Inside `<head>`:t
       - Create block `title` with `Taxi Service` title inside
       - Load static and import `styles.css`
    - Inside `<body>`:
