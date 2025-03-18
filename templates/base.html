@@ -12,15 +12,15 @@
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
-  <div class="sidebar">
-    {% block sidebar %}
-      {% include "includes/sidebar.html" %}
-    {% endblock %}
-  </div>
-  <div class="content">
-    {% block content %}
+<div class="sidebar">
+  {% block sidebar %}
+    {% include "includes/sidebar.html" %}
+  {% endblock %}
+</div>
+<div class="content">
+  {% block content %}
 
-    {% endblock %}
-  </div>
+  {% endblock %}
+</div>
 </body>
 </html>
