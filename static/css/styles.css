@@ -1,0 +1,12 @@
+body {
+    display: flex;
+}
+
+.sidebar-nav {
+    display: inline-block;
+    list-style: none;
+}
+
+.content {
+    display: inline-block;
+}
