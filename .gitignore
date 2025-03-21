@@ -9,3 +9,47 @@ venv/
 *.pyc
 app/db.sqlite3
 db.sqlite3
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+
+env/
+ENV/
+.venv/
+.env/
+
+# Django stuff
+*.db
+
+/media/
+/staticfiles/
+/static_root/
+/static/
+/node_modules/
+
+
+*.env
+
+
+# OS files
+
+Thumbs.db
+
+# Migrations (опціонально, якщо не хочеш пушити їх)
+# **/migrations/
+# !**/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+.coverage
+
+# Test reports
+junitxml.xml
+
+# Backup files
+*.bak
+*.swp
+*.tmp
