@@ -5,12 +5,12 @@
   <title>Title</title>
 </head>
 <body>
-  <content>
-    <li>
-      <ul>{{ num_cars }}</ul>
-      <ul>{{ num_drivers }}</ul>
-      <ul>{{ num_manufacturers }}</ul>
-    </li>che
-  </content>
+  {% block content %}
+    <div>
+      <li>{{ num_cars }}</li>
+      <li>{{ num_drivers }}</li>
+      <li>{{ num_manufacturers }}</li>
+    </div>
+  {% endblock %}
 </body>
 </html>
