@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container">
+    <h1 class="display-4 mb-4">
+        <i class="bi bi-speedometer2"></i> Панель керування
+        <span class="visually-hidden">Home page</span>
+    </h1>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="card bg-primary bg-gradient text-white shadow">
+                <div class="card-body text-center">
+                    <h2 class="card-title">{{ num_cars }}</h2>
+                    <p class="card-text">
+                        <i class="bi bi-car-front fs-3"></i><br>
+                        Автомобілі
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-success bg-gradient text-white shadow">
+                <div class="card-body text-center">
+                    <h2 class="card-title">{{ num_drivers }}</h2>
+                    <p class="card-text">
+                        <i class="bi bi-people fs-3"></i><br>
+                        Водії
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-info bg-gradient text-white shadow">
+                <div class="card-body text-center">
+                    <h2 class="card-title">{{ num_manufacturers }}</h2>
+                    <p class="card-text">
+                        <i class="bi bi-building fs-3"></i><br>
+                        Виробники
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
