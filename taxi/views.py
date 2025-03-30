@@ -2,6 +2,7 @@ from django.http import HttpRequest
 from django.shortcuts import render
 from .models import *
 
+
 def index(request: HttpRequest):
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
@@ -13,4 +14,7 @@ def index(request: HttpRequest):
         "num_cars": num_cars
     }
 
-    return render(request, context=context)
+    return render(
+        request,
+        "taxi/index.html",
+        context=context)

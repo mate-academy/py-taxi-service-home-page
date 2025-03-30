@@ -7,11 +7,15 @@
   <title>Taxi Service</title>
 </head>
 <body>
-  <div class="sidebar">
-    {% block sidebar %}{% endblock %}
-  </div>
-  <div class="content">
-    {% block content %}{% endblock %}
+  <div class="main-container">
+    <div class="sidebar">
+      {% block sidebar %}
+        {% include "includes/sidebar.html" %}
+      {% endblock %}
+    </div>
+    <div class="content">
+      {% block content %}{% endblock %}
+    </div>
   </div>
 </body>
 </html>
