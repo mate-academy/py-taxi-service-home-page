@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.models-count-list {
+    list-style: none;
+}
+
+.sidebar {
+    background-color: lightgray;
+    width: 20%;
+    margin-right: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 100px;
+}
+
+.sidebar ul li a:hover {
+    font-weight: bold;
+}
+
+.main-container {
+    display: flex;
+}
