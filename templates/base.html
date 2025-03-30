@@ -4,7 +4,9 @@
   {% load static %}
   <meta charset="UTF-8">
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-  <title>Taxi Service</title>
+  {% block title %}
+    <title>Taxi Service</title>
+  {% endblock %}
 </head>
 <body>
   <div class="main-container">
