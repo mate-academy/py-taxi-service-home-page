@@ -1,33 +1,20 @@
 <!DOCTYPE html>
 {% load static %}
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Taxi Service{% endblock %}</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-    {% block extra_css %}{% endblock %}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <div class="layout-wrapper">
-        {% include "includes/sidebar.html" %}
+    {% include "includes/sidebar.html" %}
 
-        <main class="main-content">
-            {% block header %}
-            <header class="content-header">
-                <h1>{% block page_title %}{% endblock %}</h1>
-            </header>
-            {% endblock %}
+    <main class="main-content">
+        {% block content %}
+        <!-- Content will be injected here -->
+        {% endblock %}
+    </main>
 
-            <div class="content-container">
-                {% block content %}
-                {% endblock %}
-            </div>
-        </main>
-    </div>
-
-    <script src="{% static 'js/main.js' %}"></script>
-    {% block extra_js %}{% endblock %}
+    <script src="{% static 'js/app.js' %}"></script>
 </body>
 </html>
