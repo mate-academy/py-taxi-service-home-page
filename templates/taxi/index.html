@@ -1,0 +1,27 @@
+{% extends "base.html" %}  <!-- Changed from taxi/base.html -->
+{% load static %}
+
+{% block title %}Taxi Service Home{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h1>Taxi Service Dashboard</h1>
+    <div class="stats-grid">
+        <div class="stat-card">
+            <i class="fas fa-car"></i>
+            <span class="stat-value">{{ num_cars }}</span>
+            <span class="stat-label">Cars</span>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-users"></i>
+            <span class="stat-value">{{ num_drivers }}</span>
+            <span class="stat-label">Drivers</span>
+        </div>
+        <div class="stat-card">
+            <i class="fas fa-industry"></i>
+            <span class="stat-value">{{ num_manufacturers }}</span>
+            <span class="stat-label">Manufacturers</span>
+        </div>
+    </div>
+</div>
+{% endblock %}
