@@ -16,11 +16,13 @@ Including another URLconf
 from django.contrib import admin
 from django.template.context_processors import static
 from django.urls import include, path
+
 from taxi_service import settings
 
 urlpatterns = [
-   path("admin/", admin.site.urls),
    path(
        "taxi_app/", include("taxi.urls", namespace="taxi_app")
    ),
+   path("admin/", admin.site.urls),
+
 ]
