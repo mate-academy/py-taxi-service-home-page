@@ -20,9 +20,9 @@ from django.urls import include, path
 from taxi_service import settings
 
 urlpatterns = [
-   path(
+    path(
        "taxi_app/", include("taxi.urls", namespace="taxi_app")
-   ),
-   path("admin/", admin.site.urls),
+    ),
+    path("admin/", admin.site.urls),
 
 ]
