@@ -1,11 +1,40 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# IDE settings
 .idea/
 .vscode/
-*.iml
-.env
+
+# OS-generated files
 .DS_Store
-venv/
-.pytest_cache/
-**__pycache__/
-*.pyc
-app/db.sqlite3
-db.sqlite3
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Python package files
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache files
+.cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.py,cover
+
+# MyPy type checking
+.mypy_cache/
