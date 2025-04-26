@@ -1,0 +1,18 @@
+body    {
+    margin: 0;
+    background-color: bisque;
+}
+
+.sidebar-nav    {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.sidebar-nav a  {
+    text-decoration: none;
+    color: black;
+}
