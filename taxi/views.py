@@ -9,8 +9,9 @@ def index(request: HttpRequest) -> HttpResponse:
     num_drivers = Driver.objects.all().count()
     num_manufacturers = Manufacturer.objects.all().count()
     num_cars = Car.objects.all().count()
-    all_cars= Car.objects.all()
+    all_cars = Car.objects.all()
     context = {"num_drivers": num_drivers,
                "num_manufacturers": num_manufacturers,
-               "num_cars": num_cars}
+               "num_cars": num_cars,
+               "all_cars": all_cars}
     return render(request, "taxi/index.html", context=context)
