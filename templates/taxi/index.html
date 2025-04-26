@@ -1,8 +1,4 @@
 {% extends "base.html" %}
-  <meta charset="UTF-8">
-  {% block title %}
-  <title>taxi</title>
-  {% endblock %}
 {% block content %}
   <h1>Welcome to our taxi service</h1>
   <p>We offer to your service:</p>
@@ -10,12 +6,6 @@
   <li>Number of cars: {{ num_cars }}</li>
   <li>Number of drivers: {{ num_drivers }}</li>
   <li>Number of manufacturers: {{ num_manufacturers }}</li>
-  <h2>Our cars:</h2>
-    {% for car in all_cars %}
-    <li>{{ car }}</li>
-    {% empty %}
-  <li>No cars available</li>
-    {% endfor %}
   </ul>
 {% endblock %}
 
