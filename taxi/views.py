@@ -2,6 +2,7 @@ from django.shortcuts import render
 
 from .models import Driver, Car, Manufacturer
 
+
 def index(request):
     num_drivers = Driver.objects.count()
     num_cars = Car.objects.count()
