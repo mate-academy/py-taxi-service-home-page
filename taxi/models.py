@@ -1,3 +1,4 @@
+from django.core.validators import MinLengthValidator, MaxLengthValidator
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 
@@ -11,7 +12,14 @@ class Manufacturer(models.Model):
 
 
 class Driver(AbstractUser):
-    license_number = models.CharField(max_length=255, unique=True)
+    license_number = models.CharField(
+        max_length=8,
+        unique=True,
+        validators=[
+            MinLengthValidator(8),
+            MaxLengthValidator(8),
+        ]
+    )
 
 
 class Car(models.Model):
