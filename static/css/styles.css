@@ -11,12 +11,6 @@ body {
     color: #333;
 }
 
-/* Контейнер для всього вмісту */
-.container {
-    display: flex;
-    min-height: 100vh;
-}
-
 /* Стилі для бічної панелі */
 #sidebar {
     width: 250px;
