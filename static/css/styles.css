@@ -1,0 +1,77 @@
+/* Загальні стилі для сайту */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Стилі для бічної панелі */
+#sidebar {
+    width: 250px;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    margin: 20px 0;
+}
+
+#sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#sidebar ul li a:hover {
+    background-color: #34495e;
+}
+
+/* Стилі для основного контенту */
+#content {
+    margin-left: 270px; /* Відступ для бічної панелі */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+ul li a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}

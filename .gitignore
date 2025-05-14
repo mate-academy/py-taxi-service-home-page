@@ -1,11 +1,33 @@
+# Python
+*.pyc
+*.pyo
+__pycache__
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.pot
+*.swp
+
+# Django specific
+db.sqlite3
+/static
+/media
+
+# Environment files
+.env
+.venv/
+venv/
+ENV/
+env/
+venv.bak/
+
+# IDEs
 .idea/
 .vscode/
-*.iml
-.env
+
+# macOS
 .DS_Store
-venv/
-.pytest_cache/
-**__pycache__/
-*.pyc
-app/db.sqlite3
-db.sqlite3
+
+# Windows
+Thumbs.db
