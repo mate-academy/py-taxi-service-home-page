@@ -8,5 +8,3 @@ app_name = "taxi"
 urlpatterns = [
     path("", index, name="index"),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-
-
