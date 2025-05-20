@@ -1,4 +1,4 @@
-from tkinter.font import names
+app_name = "taxi"
 
 from django.urls import path
 from . import views
