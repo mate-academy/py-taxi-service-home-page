@@ -1,5 +1,3 @@
-import datetime
-
 from django.http import HttpRequest, HttpResponse
 from .models import Manufacturer, Driver, Car
 from django.shortcuts import render
