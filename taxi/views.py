@@ -4,7 +4,7 @@ from .models import Driver, Car, Manufacturer
 
 
 def index(request: HttpRequest) -> HttpResponse:
-    
+
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
     num_cars = Car.objects.count()
