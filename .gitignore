@@ -1,11 +1,8 @@
-.idea/
-.vscode/
-*.iml
-.env
-.DS_Store
-venv/
-.pytest_cache/
-**__pycache__/
+# Ignore PyCharm prtojects file
+../.idea/
+
+# Ignore SQlite database file
+*.sqlite3
+
+# Ignore Python bytecode files
 *.pyc
-app/db.sqlite3
-db.sqlite3
