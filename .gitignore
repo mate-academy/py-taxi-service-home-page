@@ -1,11 +1,51 @@
-.idea/
-.vscode/
-*.iml
-.env
-.DS_Store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
 venv/
-.pytest_cache/
-**__pycache__/
+env/
+.venv/
+ENV/
+
+# Django stuff:
+*.log
+*.pot
 *.pyc
-app/db.sqlite3
+*.pyo
+*.pyd
 db.sqlite3
+db.sqlite3-journal
+
+# Migrations (optional — если хочешь игнорировать их)
+# ** НЕ добавляй это, если хочешь отслеживать миграции!
+# */migrations/
+
+# Static and media files
+/static/
+/media/
+
+# Local settings (если есть)
+local_settings.py
+
+# VSCode and PyCharm
+.vscode/
+.idea/
+
+# Mac / Linux / Windows system files
+.DS_Store
+Thumbs.db
+
+# pipenv / poetry / etc.
+Pipfile.lock
+poetry.lock
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# pytest
+.pytest_cache/
