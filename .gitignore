@@ -1,11 +1,13 @@
-.idea/
-.vscode/
-*.iml
-.env
-.DS_Store
-venv/
-.pytest_cache/
-**__pycache__/
+# Python
 *.pyc
-app/db.sqlite3
+__pycache__/
+
+# Django
 db.sqlite3
+
+# Virtual env
+venv/
+.env/
+
+# PyCharm
+.idea/
