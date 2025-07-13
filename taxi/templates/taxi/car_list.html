@@ -1,0 +1,8 @@
+<h1>Cars List</h1>
+<ul>
+  {% for car in cars %}
+    <li>{{ car.model }} ({{ car.manufacturer }})</li>
+  {% empty %}
+    <li>No cars available.</li>
+  {% endfor %}
+</ul>
