@@ -1,0 +1,9 @@
+<!-- taxi/templates/taxi/manufacturer_list.html -->
+<h1>Manufacturers</h1>
+<ul>
+  {% for manufacturer in manufacturers %}
+    <li>{{ manufacturer.name }}</li>
+  {% empty %}
+    <li>No manufacturers available.</li>
+  {% endfor %}
+</ul>
