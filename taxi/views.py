@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from .models import Driver, Manufacturer, Car
 # Create your views here.
 
+
 def index(request):
     num_drivers = Driver.objects.all().count()
     num_manufacturers = Manufacturer.objects.all().count()
