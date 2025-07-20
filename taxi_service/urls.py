@@ -17,10 +17,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-import taxi
-from taxi_service import settings
-
 urlpatterns = [
     path("taxi/", include("taxi.urls", namespace="taxi")),
-    # path("admin/", admin.site.urls),
+    path("admin/", admin.site.urls),
 ]
