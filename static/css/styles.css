@@ -1,0 +1,29 @@
+h1 {
+    margin-left: 20px;
+}
+
+body {
+    background: lightgray;
+}
+
+li.content {
+    margin: 20px;
+}
+
+li.sidebar {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    background: white;
+    padding: 1px;
+
+}
+
+body {
+    font-size: 20px;
+}
