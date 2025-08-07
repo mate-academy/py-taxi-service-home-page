@@ -1,29 +1,30 @@
-h1 {
-    margin-left: 20px;
-}
-
 body {
-    background: lightgray;
-}
-
-li.content {
-    margin: 20px;
-}
-
-li.sidebar {
-    margin-top: 10px;
-    list-style: none;
-    padding: 0;
+    margin-top: 20px;
+    background: lightgrey;
 }
 
 a {
-    color: red;
-    text-decoration: none;
+    color: black;
+    font-size: 17px;
     background: white;
-    padding: 1px;
-
 }
 
-body {
+.sidebar_nav {
+    padding: 2px;
+    list-style: none;
+    margin-top: 15px;
+    white-space: nowrap;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+.content {
+    margin-top: 10px;
     font-size: 20px;
+}
+
+.sidebar {
+    margin-bottom: 15px;
 }
