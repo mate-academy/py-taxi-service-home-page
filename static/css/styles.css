@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 8px 0;
+}
+
+.sidebar {
+  background: #343a40;
+  color: #fff;
+  padding: 16px;
+  min-width: 180px;
+  min-height: 100vh;
+  float: left;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+}
+
+.sidebar a:hover {
+  background: #495057;
+}
+
+.content {
+  margin-left: 200px;
+  padding: 24px;
+}
