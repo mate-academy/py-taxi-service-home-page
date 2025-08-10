@@ -1,5 +1,6 @@
 from django.contrib.auth.models import AbstractUser
 from django.db import models
+from django.urls import reverse
 
 from taxi_service import settings
 
@@ -24,6 +25,8 @@ class Driver(AbstractUser):
     def __str__(self):
         return f"{self.first_name} {self.last_name}: {self.license_number}"
 
+    def get_absolute_url(self):
+        return reverse("taxi:driver-detail", kwargs={"pk": self.pk})
 
 class Car(models.Model):
     manufacturer = models.ForeignKey(Manufacturer, on_delete=models.CASCADE)
@@ -35,3 +38,6 @@ class Car(models.Model):
 
     def __str__(self):
         return f"{self.manufacturer.name} {self.manufacturer.country}: {self.model}"
+
+    def get_absolute_url(self):
+        return reverse("taxi:car-detail", kwargs={"pk": self.pk})
