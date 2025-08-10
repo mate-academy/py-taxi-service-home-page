@@ -1,11 +1,37 @@
 .idea/
 .vscode/
 *.iml
-.env
-.DS_Store
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Python environments
 venv/
-.pytest_cache/
+.venv/
+ENV/
+env.bak/
+.env
+
+# Python
+__pycache__/
 **__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
 *.pyc
-app/db.sqlite3
+
+# Django
+*.log
 db.sqlite3
+app/db.sqlite3
+staticfiles/
+media/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest
+.pytest_cache/
