@@ -1,10 +1,12 @@
+from typing import Any
+
 from django.http import HttpRequest
 from django.shortcuts import render
 
 from taxi.models import Car, Manufacturer, Driver
 
 
-def index(request: HttpRequest):
+def index(request: HttpRequest) -> Any:
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
     num_cars = Car.objects.count()
