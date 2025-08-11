@@ -28,7 +28,7 @@ store templates for pages. Edit settings so that engine knows where to look for 
 template, other templates will extend `base.html`. Inside `base.html`:
    - Inside `<head>`:
       - Create block `title` with `Taxi Service` title inside
-      - Load static and import `styles.css`
+      - c
    - Inside `<body>`:
       - Create block `sidebar`
       - Create block `content`
