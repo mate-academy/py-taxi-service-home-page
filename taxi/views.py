@@ -1,6 +1,5 @@
 from django.shortcuts import render
-from .models import Driver, Manufacturer, Car
-# Create your views here.
+from taxi.models import Driver, Manufacturer, Car
 
 
 def index(request):
