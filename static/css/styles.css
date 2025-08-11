@@ -1,0 +1,18 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    text-decoration: underline green 2px;
+}
+.list_date_box {
+    margin: 0;
+    display: inline-block;
+    padding: 10px 30px;
+    border: solid 2px #4ac1f7;
+}
+.list_date{
+    color: green;
+}
