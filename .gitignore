@@ -1,11 +1,30 @@
+# IDE settings
 .idea/
 .vscode/
 *.iml
-.env
-.DS_Store
+
+# Virtual environments
 venv/
-.pytest_cache/
+.venv/
+.env
+
+# Python cache
 **__pycache__/
 *.pyc
-app/db.sqlite3
+*.pyo
+*.pyd
+*.py.class
+
+# Django files
 db.sqlite3
+app/db.sqlite3
+*.log
+staticfiles/
+media/
+
+# Pytest cache
+.pytest_cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
