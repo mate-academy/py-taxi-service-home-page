@@ -5,4 +5,4 @@ urlpatterns = [
     path("", views.index, name="index"),
 ]
 
-app_name="taxi"
+app_name = "taxi"
