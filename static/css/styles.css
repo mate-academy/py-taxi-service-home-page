@@ -1,0 +1,59 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    line-height: 1.6;
+    color: #212529;
+}
+
+/* Бокова панель */
+.sidebar {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 20px;
+    height: 100vh;
+    width: 220px;
+    flex-shrink: 0;
+    box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+}
+
+.sidebar h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.sidebar a {
+    display: block;
+    color: #ced4da;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 8px 12px;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.sidebar a:hover {
+    background-color: #495057;
+    color: #fff;
+}
+
+/* Контентна частина */
+.content {
+    flex: 1;
+    padding: 30px 40px;
+}
+
+.content h1 {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+    color: #343a40;
+}
+
+.content p {
+    font-size: 1.2rem;
+    max-width: 900px;
+}
