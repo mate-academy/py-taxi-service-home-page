@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-STATIC_URL = 'static/'
+STATIC_URL = "static/"
 
 WSGI_APPLICATION = "taxi_service.wsgi.application"
 
@@ -128,7 +128,7 @@ STATIC_URL = "static/"
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    '/var/www/static/',
+    "/var/www/static/",
 ]
 
 # Default primary key field type
