@@ -3,6 +3,7 @@ from .models import Driver, Manufacturer, Car
 
 # Create your views here.
 
+
 def index(request):
     context = {
         "num_drivers": Driver.objects.count(),
@@ -10,4 +11,4 @@ def index(request):
         "num_cars": Car.objects.count(),
     }
 
-    return render(request,"taxi/index.html",context=context)
+    return render(request, "taxi/index.html", context=context)
