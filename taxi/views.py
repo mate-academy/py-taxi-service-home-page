@@ -1,8 +1,6 @@
 from django.shortcuts import render
 from .models import Driver, Manufacturer, Car
 
-# Create your views here.
-
 
 def index(request):
     context = {
