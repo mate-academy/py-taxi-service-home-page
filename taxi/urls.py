@@ -1,4 +1,4 @@
-from operator import index
+from taxi.views import index
 
 from django.urls import path
 
