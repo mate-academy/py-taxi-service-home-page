@@ -1,0 +1,15 @@
+body {
+    margin-top: 40px;
+    background-color: #26253b;
+    color: #f9f9f9;
+}
+
+a {
+    color: #f9f9f9;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
