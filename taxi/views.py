@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.contrib.auth import get_user_model
-from .models import Manufacturer, Car
+
+from taxi.models import Manufacturer, Car
 
 
 def index(request):
