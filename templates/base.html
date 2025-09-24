@@ -3,12 +3,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    {% block title %}<title>Taxi service</title>{% endblock %}
+    <title>{% block title %}Taxi Service{% endblock %}</title>
     <link rel="stylesheet" href="{% static 'css/styles.css' %}"/>
 </head>
 <body>
     {% block sidebar %}
-        {% include 'include/sidebar.html' %}
+        {% include 'includes/sidebar.html' %}
     {% endblock %}
     {% block content %}
     {% endblock %}
