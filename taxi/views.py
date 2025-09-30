@@ -3,6 +3,7 @@ from django.shortcuts import render
 
 from taxi.models import Driver, Car, Manufacturer
 
+
 def index(request: HttpRequest):
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
@@ -12,4 +13,6 @@ def index(request: HttpRequest):
         "num_manufacturers" : num_manufacturers,
         "num_cars" : num_cars
     }
-    return render(request=request, template_name='taxi/index.html', context=context)
+    return render(request=request,
+                  template_name='taxi/index.html',
+                  context=context)
