@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from .models import Car, Manufacturer, Driver
+
+from taxi.models import Car, Manufacturer, Driver
 
 
 def index(request):
