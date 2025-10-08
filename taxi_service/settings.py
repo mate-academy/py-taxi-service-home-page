@@ -5,7 +5,9 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # --- GŁÓWNA KONFIGURACJA ---
-SECRET_KEY = "django-insecure-8ovil3xu6=eaoqd--#&ricv159p0pypoh5_lgm*)-dfcjqe=yc"
+SECRET_KEY = (
+    "django-insecure-8ovil3xu6=eaoqd--#&ricv159p0pypoh5_lgm*)-dfcjqe=yc"
+)
 DEBUG = True
 ALLOWED_HOSTS = []
 
@@ -41,7 +43,6 @@ WSGI_APPLICATION = "taxi_service.wsgi.application"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        # Używamy os.path.join, aby zapewnić kompatybilność z Windows i wyeliminować błędy Pathlib.
         "DIRS": [os.path.join(BASE_DIR, "templates")],
         "APP_DIRS": True,
         "OPTIONS": {
@@ -74,7 +75,6 @@ USE_TZ = True
 
 # --- PLIKI STATYCZNE (CSS, JS, Obrazki) ---
 STATIC_URL = "/static/"
-# Django będzie szukać plików statycznych w folderze 'taxi/static/' (dzięki APP_DIRS)
 
 # --- INNE ---
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
