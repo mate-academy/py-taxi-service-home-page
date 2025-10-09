@@ -1,30 +1,35 @@
+# taxi_service/settings.py
+
 import os
 from pathlib import Path
 
-# Buduje ścieżki wewnątrz projektu tak jak: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
 
-# --- GŁÓWNA KONFIGURACJA ---
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
+BASE_DIR = Path(__file__).resolve().parent.parent.parent
+
+
+# Quick-start development settings - unsuitable for production
 SECRET_KEY = (
     "django-insecure-8ovil3xu6=eaoqd--#&ricv159p0pypoh5_lgm*)-dfcjqe=yc"
 )
+
 DEBUG = True
+
 ALLOWED_HOSTS = []
 
-# --- APLIKACJE ---
+
+# Application definition
+
 INSTALLED_APPS = [
-    # Aplikacje Django
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    # Twoje aplikacje
     "taxi",
 ]
 
-# --- MIDDLEWARE ---
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -35,15 +40,12 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-# --- URLS / WSGI ---
 ROOT_URLCONF = "taxi_service.urls"
-WSGI_APPLICATION = "taxi_service.wsgi.application"
 
-# 🛠️ KLUCZOWA ZMIANA: Konfiguracja szablonów
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, "templates")],
+        "DIRS": [BASE_DIR / "py-taxi-service-home-page" / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -56,25 +58,55 @@ TEMPLATES = [
     },
 ]
 
-# --- BAZA DANYCH ---
+WSGI_APPLICATION = "taxi_service.wsgi.application"
+
+
+# Database
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "NAME": BASE_DIR / "py-taxi-service-home-page" / "db.sqlite3",
     }
 }
 
-# --- UŻYTKOWNICY ---
-AUTH_USER_MODEL = "taxi.Driver"
 
-# --- JĘZYK / CZAS ---
+# Password validation
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        "NAME": "django.contrib.auth.password_validation."
+                "UserAttributeSimilarityValidator",
+    },
+    {
+        "NAME": "django.contrib.auth.password_validation."
+                "MinimumLengthValidator",
+    },
+    {
+        "NAME": "django.contrib.auth.password_validation."
+                "CommonPasswordValidator",
+    },
+    {
+        "NAME": "django.contrib.auth.password_validation."
+                "NumericPasswordValidator",
+    },
+]
+
+
+# Internationalization
 LANGUAGE_CODE = "en-us"
+
 TIME_ZONE = "UTC"
+
 USE_I18N = True
+
 USE_TZ = True
 
-# --- PLIKI STATYCZNE (CSS, JS, Obrazki) ---
+
+# Static files (CSS, JavaScript, Images)
 STATIC_URL = "/static/"
 
-# --- INNE ---
+STATICFILES_DIRS = [
+    BASE_DIR / "py-taxi-service-home-page" / 'static',
+]
+
+
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"

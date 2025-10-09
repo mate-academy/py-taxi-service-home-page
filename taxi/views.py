@@ -1,29 +1,27 @@
 from django.shortcuts import render
-from django.views.generic import ListView
-from .models import Manufacturer, Driver, Car
+from django.views import generic
+from taxi.models import Driver, Car, Manufacturer
 
 
-# --- FUNKCJA INDEX (DASHBOARD) ---
 def index(request):
     """View function for the home page of the site."""
 
-    # Liczenie obiektów z bazy danych
-    num_cars = Car.objects.count()
     num_drivers = Driver.objects.count()
+    num_cars = Car.objects.count()
     num_manufacturers = Manufacturer.objects.count()
 
+    num_visits = request.session.get("num_visits", 0)
+    request.session["num_visits"] = num_visits + 1
+
     context = {
-        "num_cars": num_cars,
         "num_drivers": num_drivers,
+        "num_cars": num_cars,
         "num_manufacturers": num_manufacturers,
+        "num_visits": num_visits,
     }
 
-    # Renderowanie szablonu index.html z danymi kontekstowymi
     return render(request, "taxi/index.html", context=context)
 
 
-# --- KLASA LISTY PRODUCENTÓW ---
-class ManufacturerListView(ListView):
+class ManufacturerListView(generic.ListView):
     model = Manufacturer
-    template_name = "taxi/manufacturer_list.html"
-    context_object_name = "manufacturer_list"
