@@ -1,6 +1,6 @@
 from django.shortcuts import render
+
 from taxi.models import Driver, Manufacturer, Car
-from django.contrib.auth import get_user_model
 
 
 def index(request):
@@ -15,3 +15,4 @@ def index(request):
     }
 
     return render(request, "taxi/index.html", context=context)
+
