@@ -22,3 +22,4 @@ urlpatterns = [
         "", include("taxi.urls", namespace="taxi")
     ),
 ]
+#newline
