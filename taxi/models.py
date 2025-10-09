@@ -6,6 +6,9 @@ class Manufacturer(models.Model):
     name = models.CharField(max_length=255, unique=True)
     country = models.CharField(max_length=255)
 
+    class Meta:
+        ordering = ["name"]
+
     def __str__(self):
         return self.name
 
@@ -15,12 +18,12 @@ class Driver(AbstractUser):
 
     groups = models.ManyToManyField(
         "auth.Group",
-        related_name="drivers",
+        related_name="drivers_groups",
         blank=True,
     )
     user_permissions = models.ManyToManyField(
         "auth.Permission",
-        related_name="driver_user_permissions",
+        related_name="drivers_user_permissions",
         blank=True,
     )
 
