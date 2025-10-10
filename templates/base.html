@@ -3,11 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {% block title %}
-        <title>Taxi Service</title>
-    {% endblock %}
+    <title>{% block title %}Taxi Service{% endblock %}</title>
     {% load static%}
-    <link rel="stylesheet" {% static 'css/styles.css' %}>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
     {%block sidebar %}
