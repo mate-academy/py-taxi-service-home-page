@@ -5,8 +5,10 @@
 {% endblock %}
 
 {% block content %}
- {% for entry in entries %}
-   <h2>{{ entry.title }}</h2>
-   <p>{{ entry.body }}</p>
- {% endfor %}
+  <h2>Taxi Service Overview</h2>
+  <ul>
+    <li>Number of cars: {{ num_cars }}</li>
+    <li>Number of drivers: {{ num_drivers }}</li>
+    <li>Number of manufacturers: {{ num_manufacturers }}</li>
+  </ul>
 {% endblock %}
