@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}
+ <title>New Title</title>
+{% endblock %}
+
+{% block content %}
+ {% for entry in entries %}
+   <h2>{{ entry.title }}</h2>
+   <p>{{ entry.body }}</p>
+ {% endfor %}
+{% endblock %}
