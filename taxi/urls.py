@@ -1,9 +1,7 @@
-from django.urls import path
-from taxi.views import index
-
+from django.contrib import admin
+from django.urls import path, include
 
 urlpatterns = [
-    path("", index, name="index"),
+    path("admin/", admin.site.urls),
+    path("", include(("taxi.urls", "taxi"), namespace="taxi")),
 ]
-
-app_name = "taxi"
