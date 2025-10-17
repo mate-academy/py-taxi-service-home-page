@@ -1,16 +1,14 @@
-"""
-WSGI config for taxi_service project.
+from django.shortcuts import render
+from taxi.models import Driver, Manufacturer, Car
 
-It exposes the WSGI callable as a module-level variable named ``application``.
 
-For more information on this file, see
-https://docs.djangoproject.com/en/4.0/howto/deployment/wsgi/
-"""
-
-import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "taxi_service.settings")
-
-application = get_wsgi_application()
+def index(request):
+    num_drivers = Driver.objects.count()
+    num_manufacturers = Manufacturer.objects.count()
+    num_cars = Car.objects.count()
+    context = {
+        "num_drivers": num_drivers,
+        "num_manufacturers": num_manufacturers,
+        "num_cars": num_cars,
+    }
+    return render(request, "taxi/index.html", context=context)
