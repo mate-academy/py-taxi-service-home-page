@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from django.db.models import Count
 
-from .models import Driver, Manufacturer, Car
+from taxi.models import Driver, Manufacturer, Car
 
 
 def index(request):
