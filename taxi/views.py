@@ -1,15 +1,12 @@
 from django.shortcuts import render
-from django.db.models import Count
 
 from taxi.models import Driver, Manufacturer, Car
 
 
 def index(request):
-    num_drivers = Driver.objects.aggregate(count=Count("id"))["count"]
-    num_manufacturers = Manufacturer.objects.aggregate(
-        count=Count("id")
-    )["count"]
-    num_cars = Car.objects.aggregate(count=Count("id"))["count"]
+    num_drivers = Driver.objects.count()
+    num_manufacturers = Manufacturer.objects.count()
+    num_cars = Car.objects.count()
 
     context = {
         "num_drivers": num_drivers,
