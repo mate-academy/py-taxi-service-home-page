@@ -5,7 +5,9 @@ from .models import Driver, Manufacturer, Car
 
 def index(request):
     num_drivers = Driver.objects.aggregate(count=Count("id"))["count"]
-    num_manufacturers = Manufacturer.objects.aggregate(count=Count("id"))["count"]
+    num_manufacturers = Manufacturer.objects.aggregate(
+        count=Count("id")
+    )["count"]
     num_cars = Car.objects.aggregate(count=Count("id"))["count"]
 
     context = {
