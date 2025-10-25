@@ -1,0 +1,8 @@
+.sidebar {
+    display: flex;
+}
+
+.sidebar li {
+  list-style-type: none;
+  margin: 5px;
+}
