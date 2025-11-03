@@ -1,8 +1,8 @@
 from django.urls import path
-from . import views
+from taxi import views  # importação absoluta
 
-app_name = "taxi"  # namespace do app
+app_name = "taxi"
 
 urlpatterns = [
-    path('', views.index, name='index'),  # página inicial
+    path('', views.index, name='index'),
 ]
