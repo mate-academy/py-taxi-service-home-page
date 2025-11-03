@@ -1,5 +1,6 @@
 from django.shortcuts import render
-from taxi.models import Car, Manufacturer, Driver  # importação absoluta
+
+from taxi.models import Car, Manufacturer, Driver  # importação local
 
 def index(request):
     num_drivers = Driver.objects.count()
