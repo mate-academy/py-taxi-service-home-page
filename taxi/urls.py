@@ -4,5 +4,5 @@ from taxi import views  # importação absoluta
 app_name = "taxi"
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', views.index, name='index'),  # página inicial
 ]
