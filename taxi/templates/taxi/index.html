@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
   <h1>Stats: </h1>
-  <p>Number of drivers: {{ num_drivers }}</p>
-  <p>Number of manufacturers: {{ num_manufacturers }}</p>
-  <p>Number of cars: {{ num_cars }}</p>
+  <ul>
+    <li>Number of drivers: {{ num_drivers }}</li>
+    <li>Number of manufacturers: {{ num_manufacturers }}</li>
+    <li>Number of cars: {{ num_cars }}</li>
+  </ul>
 {% endblock %}
