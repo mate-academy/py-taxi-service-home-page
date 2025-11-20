@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   {% load static %}
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
-  <title>Taxi Service</title>
+  <title>{% block title %}Taxi Service{% endblock %}</title>
 </head>
 <body>
   <div id="sidebar">
