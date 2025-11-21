@@ -10,6 +10,7 @@ SECRET_KEY = "django-insecure-8ovil3xu6=eaoqd#" \
 
 DEBUG = True
 
+
 ALLOWED_HOSTS = []
 
 
@@ -23,6 +24,7 @@ INSTALLED_APPS = [
     "taxi",
 ]
 
+
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -33,7 +35,9 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
+
 ROOT_URLCONF = "taxi_service.urls"
+
 
 TEMPLATES = [
     {
@@ -51,7 +55,9 @@ TEMPLATES = [
     },
 ]
 
+
 WSGI_APPLICATION = "taxi_service.wsgi.application"
+
 
 DATABASES = {
     "default": {
@@ -80,25 +86,26 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL = "taxi.Driver"
 
+AUTH_USER_MODEL = "taxi.Driver"
 
 
 LANGUAGE_CODE = "en-us"
 
+
 TIME_ZONE = "UTC"
 
+
 USE_I18N = True
+
 
 USE_TZ = True
 
 
-
-
 STATIC_URL = "static/"
 
-STATICFILES_DIRS = [BASE_DIR / "static"]
 
+STATICFILES_DIRS = [BASE_DIR / "static"]
 
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
