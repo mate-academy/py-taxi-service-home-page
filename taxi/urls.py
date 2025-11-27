@@ -1,5 +1,7 @@
-from django.urls import path, include
+from django.urls import path
+
 from taxi import views
+
 
 app_name = "taxi"
 
