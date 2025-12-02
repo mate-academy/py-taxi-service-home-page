@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    background: pink;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.sidebar ul {
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.content {
+    padding: 20px;
+}
