@@ -1,0 +1,40 @@
+body {
+    font-family: Calibri, serif;
+    margin-top: 20px;
+    background: wheat;
+    padding: 20px;
+    display: flex;
+}
+
+#sidebar {
+    padding: 0;
+    width: 250px;
+    border: 1px solid;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+#sidebar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar li {
+    border-bottom: 1px solid;
+}
+
+#sidebar a{
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#sidebar li:last-child {
+    border-bottom: none;
+}
+
+#content {
+    padding: 15px;
+}
