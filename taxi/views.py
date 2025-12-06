@@ -1,3 +1,14 @@
+from django.contrib.auth import get_user_model
+
 from django.shortcuts import render
 
-# Create your views here.
+from taxi.models import Manufacturer, Car
+
+
+def index(request):
+    context = {
+        "num_drivers": get_user_model().objects.count(),
+        "num_cars": Car.objects.count(),
+        "num_manufacturers": Manufacturer.objects.count(),
+    }
+    return render(request, "taxi/index.html", context=context)
