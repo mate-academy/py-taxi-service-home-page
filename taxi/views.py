@@ -1,8 +1,9 @@
 from django.shortcuts import render
-from .models import Driver, Car, Manufacturer
+from django.http import HttpRequest, HttpResponse
+from taxi.models import Driver, Car, Manufacturer
 
 
-def index(request):
+def index(request: HttpRequest) -> HttpResponse:
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
     num_cars = Car.objects.count()
