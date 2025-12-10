@@ -17,7 +17,7 @@ path the name `index`.
     - count the number of all drivers with `num_drivers` variable
     - count the number of all manufacturers with `num_manufacturers` variable
     - count the number of all cars with `num_cars` variable 
-    - return `HttpResponse` with rendered template. Pass received data to this template (don't import `HttpResponse` if you use `render`, this import is unnecessary).
+    - return `HttpResponse` with rendered template. Pass received data to this template.
 
 4. Before you create a template you have to create styles for the 
 template. Create directory `static` next to the directory `taxi`. Inside this 
