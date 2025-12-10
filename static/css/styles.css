@@ -1,0 +1,4 @@
+/* Basic styles for Taxi Service project */
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+aside { background: #f5f5f5; padding: 1rem; }
+main { padding: 1rem; }
