@@ -56,7 +56,7 @@ ROOT_URLCONF = "taxi_service.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -106,6 +106,10 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 AUTH_USER_MODEL = "taxi.Driver"
+
+STATIC_URL = "static/"
+
+STATICFILES_DIRS = [BASE_DIR / "static"]
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
