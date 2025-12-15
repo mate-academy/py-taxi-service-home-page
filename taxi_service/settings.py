@@ -107,8 +107,6 @@ AUTH_PASSWORD_VALIDATORS = [
 
 AUTH_USER_MODEL = "taxi.Driver"
 
-STATIC_URL = "static/"
-
 STATICFILES_DIRS = [BASE_DIR / "static"]
 
 # Internationalization
