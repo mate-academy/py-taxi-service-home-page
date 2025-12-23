@@ -1,0 +1,27 @@
+body {
+    padding: 20px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid {
+    flex: 1;
+}
+
+.navigation {
+    list-style: none;
+    background-color: #993333;
+    height: 100%;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar {
+    height: 100vh;
+    padding: 0;
+}
