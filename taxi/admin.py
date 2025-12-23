@@ -5,10 +5,12 @@ from .models import Driver, Car, Manufacturer
 
 @admin.register(Driver)
 class DriverAdmin(UserAdmin):
-    list_display = UserAdmin.list_display + ("license_number",)
-    fieldsets = UserAdmin.fieldsets + (
-        (("Additional info", {"fields": ("license_number",)}),)
-    )
+    list_display = list(UserAdmin.list_display) + ["license_number",]
+
+    fieldsets = list(UserAdmin.fieldsets) + [
+        ("Additional info", {"fields": ("license_number",)}),
+    ]
+
     add_fieldsets = UserAdmin.add_fieldsets + (
         (
             (
@@ -25,10 +27,13 @@ class DriverAdmin(UserAdmin):
     )
 
 
+@admin.register(Manufacturer)
+class ManufacturerAdmin(admin.ModelAdmin):
+    list_display = ["name", "country", ]
+
+
 @admin.register(Car)
 class CarAdmin(admin.ModelAdmin):
-    search_fields = ("model",)
-    list_filter = ("manufacturer",)
-
-
-admin.site.register(Manufacturer)
+    list_display = ["model", "manufacturer", ]
+    list_filter = ["manufacturer", ]
+    search_fields = ["model", ]
