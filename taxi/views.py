@@ -1,3 +1,14 @@
+from django.http.request import HttpRequest
+from django.http.response import HttpResponse
 from django.shortcuts import render
 
-# Create your views here.
+from taxi.models import Car, Driver, Manufacturer
+
+
+def index(request: HttpRequest) -> HttpResponse:
+    context = {
+        "num_drivers": Driver.objects.count(),
+        "num_manufacturers": Manufacturer.objects.count(),
+        "num_cars": Car.objects.count()
+    }
+    return render(request, "taxi/index.html", context=context)
