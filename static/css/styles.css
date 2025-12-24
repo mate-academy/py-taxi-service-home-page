@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 10px;
+    list-style: none;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 66%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: 50%;
+}
