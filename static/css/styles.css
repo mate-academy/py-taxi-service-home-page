@@ -1,0 +1,11 @@
+body{
+    color: white;
+    background-image: url("https://kartinkin.net/uploads/posts/2022-02/thumbs/1644962449_1-kartinkin-net-p-kartinki-taksi-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.home-page{
+    text-align: center;
+    color: white;
+}
