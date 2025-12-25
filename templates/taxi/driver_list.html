@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Список водителей</h1>
+  <ul>
+    {% for driver in drivers %}
+      <li>{{ driver.name }} ({{ driver.license_number }})</li>
+    {% empty %}
+      <li>Водителей пока нет.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}
