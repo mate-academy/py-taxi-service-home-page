@@ -1,0 +1,39 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+.sidebar-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: #333;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.sidebar-nav li a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar-nav li.logo a {
+    padding: 15px;
+}
+
+.sidebar-nav li.logo img {
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+.sidebar-nav li:not(.logo) a:hover {
+    background: #111;
+}
