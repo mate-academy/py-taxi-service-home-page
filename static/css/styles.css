@@ -1,0 +1,19 @@
+body {
+    background-color: burlywood;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.sidebar__list {
+    list-style-type: none;
+    margin-top: 10px;
+    line-height: 150%;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 60px;
+}
