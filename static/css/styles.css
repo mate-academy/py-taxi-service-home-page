@@ -1,0 +1,21 @@
+.toggle-nav-sidebar{
+    display: inline-block;
+    background-color: darkgrey;
+    color: black;
+    width: 100%;
+}
+
+.link-item{
+    text-decoration: none;
+    color: darkolivegreen;
+}
+
+.list-item{
+    margin: 5px;
+    padding: 10px;
+    gap: 10px;
+    display: inline-block;
+    background-color: azure;
+    list-style: none;
+
+}

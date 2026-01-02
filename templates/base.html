@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    {% block title %}
+    <title>My Website</title>
+      {% endblock %}
+  </head>
+  <body>
+  <div class="toggle-nav-sidebar">
+      {% block sidebar %}
+            {% include "includes/sidebar.html"%}
+      {% endblock %}
+          </div>
+
+      {% block content %}
+    <main>
+        <h1>Welcome to My Website</h1>
+    </main>
+      {% endblock %}
+  </body>
+</html>
