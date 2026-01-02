@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}
+    <title>Home page</title>
+{% endblock %}
+
+{% block content %}
+    <h1>Taxi home page</h1>
+            <p>Welcome to the Greatest Taxi Service</p>
+            <h3>We have:</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Num of cars: {{ num_cars }}</li>
+                <li class="list-group-item">Num of drivers: {{ num_drivers }}</li>
+                <li class="list-group-item">Num of manufacture: {{ num_manufacturers }}</li>
+            </ul>
+{% endblock %}
