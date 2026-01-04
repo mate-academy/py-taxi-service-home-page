@@ -1,0 +1,17 @@
+body {
+    margin-top: 20px;
+    background-color: #e8c547;
+}
+.sidebar-nav {
+    padding: 10px 10px 10px 20px;
+    list-style: none;
+    background-color: #4d5061;
+}
+.sidebar-nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.main-content {
+    border: 2px solid #4d5061;
+    padding-left: 20px;
+}
