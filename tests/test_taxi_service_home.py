@@ -18,7 +18,7 @@ class HomePageTests(TestCase):
 
         self.assertContains(response, "Home page")
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, "taxi/index.html")
+        self.assertTemplateUsed(response, "taxi/base.html")
         self.assertEqual(response.context["num_drivers"], num_drivers)
         self.assertEqual(response.context["num_cars"], num_cars)
         self.assertEqual(
