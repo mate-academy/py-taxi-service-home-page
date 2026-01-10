@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+  <body>
+  {% block content %}
+      <ul>
+        <li>Drivers: {{ num_drivers }}</li>
+        <li>Manufacturer: {{ num_manufacturers }}</li>
+        <li>Car: {{ num_cars }}</li>
+      </ul>
+  {% endblock %}
+  </body>
+</html>
