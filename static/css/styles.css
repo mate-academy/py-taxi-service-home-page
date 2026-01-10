@@ -1,0 +1,14 @@
+.content-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: silver;
+    margin: 20px;
+}
+
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
