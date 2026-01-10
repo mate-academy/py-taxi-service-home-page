@@ -1,0 +1,24 @@
+html{
+    background-color: grey;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+
+/*sidebar.html*/
+.sidebar-nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+/*index.html*/
+.list-date{
+    background-color: aquamarine;
+}
