@@ -1,0 +1,9 @@
+body {
+    margin: 20px;
+    background-color: #C7F5F0;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
