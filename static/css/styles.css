@@ -1,0 +1,52 @@
+/* Corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100vh; /* ocupa toda a altura da tela */
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar a:hover {
+    color: #007bff;
+}
+
+/* Área de conteúdo principal */
+.content {
+    flex: 1; /* ocupa todo o espaço restante */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Lista de contagem */
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content li {
+    font-size: 18px;
+    margin-bottom: 8px;
+}
