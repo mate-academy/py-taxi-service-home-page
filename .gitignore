@@ -9,3 +9,6 @@ venv/
 *.pyc
 app/db.sqlite3
 db.sqlite3
+taxi/main.py
+init_django_orm.py
+1.py
