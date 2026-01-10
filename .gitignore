@@ -1,11 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtualenv
+venv/
+.env/
+.venv/
+
+# Django / DB
+*.sqlite3
+*.db
+*.db3
+
+# IDE / sistema
 .idea/
 .vscode/
-*.iml
-.env
 .DS_Store
-venv/
-.pytest_cache/
-**__pycache__/
-*.pyc
-app/db.sqlite3
-db.sqlite3
