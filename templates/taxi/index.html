@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+<title>Information about our taxi's</title>
+{% block content %}
+  <h1>Drivers park lot</h1>
+  <p>Down there you can find the amount of cars, drivers and manufacturers</p>
+  <ul>
+    <li>
+      Number of cars: {{ num_cars }}
+    </li>
+    <li>
+      Number of drivers: {{ num_drivers }}
+    </li>
+    <li>
+      Number of manufacturers: {{ num_manufacturers }}
+    </li>
+  </ul>
+{% endblock %}
