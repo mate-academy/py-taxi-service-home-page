@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+   <h3>Number of drivers, cars, manufacturers</h3>
+   <ul class="list-group">
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Number of cars:
+        <span class="badge bg-primary rounded-pill">{{ num_cars }}</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Number of drivers:
+        <span class="badge bg-primary rounded-pill">{{ num_drivers }}</span>
+      </li>
+      <li class="list-group-item d-flex justify-content-between align-items-center">
+        Number of manufacturers:
+        <span class="badge bg-primary rounded-pill">{{ num_manufacturers }}</span>
+      </li>
+    </ul>
+{% endblock %}
