@@ -1,0 +1,28 @@
+body {
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.sidebar-nav {
+    background-color: dimgrey;
+    list-style: none;
+    height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.sidebar-link {
+    color: white;
+    font-size: 1.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.sidebar-link:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 20px;
+}
