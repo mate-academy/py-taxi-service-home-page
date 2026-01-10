@@ -1,0 +1,14 @@
+body {
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: dimgray;
+    background: lightyellow;
+}
+h1, h3 {
+    color: #444;
+}
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
