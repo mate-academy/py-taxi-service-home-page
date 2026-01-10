@@ -1,0 +1,12 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar
+{
+    max-width: 200px;
+}
+
+.d-flex {
+    border: 0;
+}
