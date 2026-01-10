@@ -1,0 +1,13 @@
+body {
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.lists {
+    padding: 0;
+    list-style: none;
+}
+
+h1 {
+    padding-bottom: 50px;
+}
