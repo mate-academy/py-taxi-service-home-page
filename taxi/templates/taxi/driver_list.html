@@ -1,0 +1,8 @@
+<h1>Drivers List</h1>
+<ul>
+  {% for driver in drivers %}
+    <li>{{ driver.username }} — {{ driver.first_name }} {{ driver.last_name }}</li>
+  {% empty %}
+    <li>No drivers available.</li>
+  {% endfor %}
+</ul>
