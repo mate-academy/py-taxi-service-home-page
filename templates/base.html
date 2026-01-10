@@ -1,0 +1,21 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Taxi Service{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        {% include 'includes/sidebar.html' %}
+        <div class="content">
+            {% block content %}
+            <p>This is the main content area.</p>
+            {% endblock %}
+        </div>
+    </div>
+
+</body>
+</html>
