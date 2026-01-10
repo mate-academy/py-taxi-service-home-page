@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+ol.list-group-numbered{
+    padding: 30px;
+    color: green;
+    background-color: antiquewhite;
+}
+
+ol.list-group-numbered li{
+    color: darkblue;
+    background-color: lemonchiffon;
+}
+
+h6{
+    text-align: center
+}
+
+.container{
+    max-width: calc(100% - 20px);
+    margin: 10px;
+}
+
+.l{
+    font-weight: 1000;
+}
+
+.l:link {
+    color: rgba(161, 187, 161, 0.899);
+    text-decoration: none;
+}
+  
+  .l:visited {
+    color: antiquewhite;
+}
+  
+  .l:hover {
+    color: rgb(11, 1, 11);
+    text-decoration: underline;
+}
+  
+  .l:active {
+    color: yellow;
+}
