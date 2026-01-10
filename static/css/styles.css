@@ -1,0 +1,14 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+.sidebar-nav {
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.content {
+	display: inline-block;
+}
