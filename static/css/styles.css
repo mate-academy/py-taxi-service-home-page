@@ -1,0 +1,13 @@
+body {
+    margin-top: 0;
+    margin-left: 0;
+}
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+.logo {
+    font-size: 30px;
+    padding: 10px 15px;
+    text-align: left;
+}
