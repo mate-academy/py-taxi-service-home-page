@@ -1,0 +1,48 @@
+html {
+    --font-size: 16px;
+    --sidebar-veight: 160px
+}
+body {
+    background-color: dimgray;
+    font-size: var(--font-size);
+}
+main {
+    margin-left: var(--sidebar-veight);
+    padding: 0 0.625rem;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: var(--sidebar-veight);
+    background-color: black;
+}
+
+.sidebar__list {
+    padding: 1.25rem 0.938rem;
+    text-align: center;
+}
+
+.sidebar__link {
+    text-decoration: none;
+    color: crimson;
+    font-size: 1.25rem;
+}
+.sidebar__list_item {
+    padding-bottom: 1rem;
+}
+.sidebar__list_item:last-child{
+    padding-bottom: 0;
+}
+.content__title {
+    text-align: center;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+.content__list_item {
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.sidebar__list_item:last-child {
+    padding-bottom: 0;
+}
