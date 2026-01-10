@@ -1,0 +1,25 @@
+body {
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+  display: flex;
+}
+
+.sidebar-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.link-nav {
+  color: white;
+}
+
+.sidebar-container {
+  position: sticky;
+  border: 5px solid white;
+  box-sizing: border-box;
+  top: 0;
+  min-width: 200px;
+  height: 100vh;
+}
+
