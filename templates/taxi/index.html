@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}Home page - Taxi Service{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="stats">
+            <ul>
+                <li>Number of cars: <span>{{ num_cars }}</span></li>
+                <li>Number of drivers: <span>{{ num_drivers }}</span></li>
+                <li>Number of manufacturers: <span>{{ num_manufacturers }}</span></li>
+            </ul>
+        </div>
+    </div>
+{% endblock %}
