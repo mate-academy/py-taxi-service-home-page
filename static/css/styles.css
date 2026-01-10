@@ -1,0 +1,19 @@
+[data-bs-theme=dark] {
+  color-scheme: dark;
+}
+
+.info {
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 30px;
+}
+
+.btn-dark a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-dark:hover {
+    color: grey;
+    text-decoration: underline;
+}
