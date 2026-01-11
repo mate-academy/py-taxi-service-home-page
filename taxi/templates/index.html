@@ -1,0 +1,11 @@
+<!-- templates/taxi/index.html -->
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Добро пожаловать в Taxi Service!</h1>
+    <ul>
+        <li>Количество автомобилей: {{ num_cars }}</li>
+        <li>Количество водителей: {{ num_drivers }}</li>
+        <li>Количество производителей: {{ num_manufacturers }}</li>
+    </ul>
+{% endblock %}
