@@ -1,0 +1,11 @@
+body {
+    margin-top: 20px;
+    background: gray;
+}
+
+.sidebar {
+    list-style: none;
+    color: black;
+    margin: 20px;
+    text-overline: none;
+}
