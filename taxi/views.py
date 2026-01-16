@@ -1,6 +1,6 @@
-from django.http import HttpRequest
+from django.http import HttpRequest, HttpResponse
 from django.shortcuts import render
-from django.http import HttpResponse
+
 from taxi.models import Manufacturer, Car, Driver
 
 
