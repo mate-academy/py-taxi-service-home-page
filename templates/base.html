@@ -1,0 +1,23 @@
+{#6#}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taxi Service</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'styles.css' %}" media="screen">
+</head>
+<body>
+  <sidebar>
+    {% block sidebar %}
+      {% include "includes/sidebar.html" %}
+    {% endblock sidebar %}
+  </sidebar>
+  <content>
+    {% block content %}
+      {% include "taxi/index.html" %}
+    {% endblock content %}
+  </content>
+</body>
+</html>
