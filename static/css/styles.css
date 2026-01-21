@@ -1,0 +1,5 @@
+.side-link {font-size:1.125em}
+.taxi-page {display:flex; padding: 1.5em 1em; margin:1em;}
+.taxi-page .h1 {font-size: 1.75em; color: cadetblue;}
+.taxi-page .col {margin: 0 auto}
+.taxi-page .card {margin-bottom: 1em;}
