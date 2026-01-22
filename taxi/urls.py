@@ -6,4 +6,4 @@ urlpatterns = [
     path("", index, name="index"),
 ]
 
-app_name = "catalog"
+app_name = "taxi"
