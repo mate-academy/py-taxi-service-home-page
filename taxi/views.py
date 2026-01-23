@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from .models import Driver, Manufacturer, Car
 
+
 def index(request):
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
@@ -36,4 +37,3 @@ def driver(request):
         "drivers": drivers
     }
     return render(request, "taxi/driver.html", context=context)
-
