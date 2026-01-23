@@ -3,9 +3,9 @@
 {% block content %}
     <h1>ВИРОБНИКИ</h1>
 
-    {% if manufacturer %}
+    {% if manufacturers %}
         <ul>
-            {% for manufacturer in manufacturer %}
+            {% for manufacturer in manufacturers %}
                 <li>{{ manufacturer.name }} ({{ manufacturer.country }})</li>
             {% endfor %}
         </ul>

@@ -3,9 +3,9 @@
 {% block content %}
     <h1>Водії</h1>
     
-    {% if driver %}
+    {% if drivers %}
         <ul>
-            {% for driver in driver %}
+            {% for driver in drivers %}
                 <li>{{ driver.get_full_name }} (Ліцензія: {{ driver.license_number }})</li>
             {% endfor %}
         </ul>

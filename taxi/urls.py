@@ -1,10 +1,9 @@
 from django.conf import settings
 from django.conf.urls.static import static
-from . import views
 from django.urls import path
 
 
-from .views import index, manufacturer, car, driver
+from taxi import views
 
 
 app_name = 'taxi'
