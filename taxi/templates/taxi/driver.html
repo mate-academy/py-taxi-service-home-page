@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Водії</h1>
+    
+    {% if drivers %}
+        <ul>
+            {% for driver in drivers %}
+                <li>{{ driver.get_full_name }} (Ліцензія: {{ driver.license_number }})</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Немає доступних водіїв.</p>
+    {% endif %}
+{% endblock %}

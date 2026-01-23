@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>ВИРОБНИКИ</h1>
+
+    {% if manufacturers %}
+        <ul>
+            {% for manufacturer in manufacturers %}
+                <li>{{ manufacturer.name }} ({{ manufacturer.country }})</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Немає доступних виробників.</p>
+    {% endif %}
+{% endblock %}
