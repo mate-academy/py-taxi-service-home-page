@@ -2,9 +2,9 @@
 
 {% block sidebar %}
   <ul>
-       <li><a href="/taxi">Homepage</a></li>
-    <li><a href="/manufacturers">Manufacturers</a></li>
-    <li><a href="/cars">Cars</a></li>
-    <li><a href="/drivers">Drivers</a></li>
+       <li><a href="{% url 'taxi:index' %}">Homepage</a></li>
+    <li><a href="{% url 'taxi:manufacturers' %}">Manufacturers</a></li>
+    <li><a href="{% url 'taxi:cars' %}">Cars</a></li>
+    <li><a href="{% url 'taxi:drivers' %}">Drivers</a></li>
    </ul>
 {% endblock %}
