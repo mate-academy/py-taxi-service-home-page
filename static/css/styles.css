@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+}
+
+.sidebar {
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+}
