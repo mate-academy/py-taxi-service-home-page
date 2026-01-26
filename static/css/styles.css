@@ -1,0 +1,25 @@
+body {
+    margin-top: 20px;
+    font: 12pt Arial;
+    line-height: 20pt;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+    line-height: 25pt;
+    width: 150px;
+}
+
+.sidebar-nav a:link, .sidebar-nav a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar, .content {
+    display: inline-block;
+}
+
+.content {
+    vertical-align: top;
+}
