@@ -1,0 +1,34 @@
+.sidebar-nav {
+    width: 100%;
+    background-color: #f8f9fa;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.nav-link {
+    color: #333;
+    padding: 0.625rem 1rem;
+}
+
+.nav-link:hover {
+    color: #007bff;
+    background-color: #e9ecef;
+}
+
+.nav-link.active {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+.display-6 {
+    font-size: 1.5rem;
+}
