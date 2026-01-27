@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+<html lang="en">
+{% block content %}
+  <div class="container">
+    <div class="flex-column">
+      <ul class="list-group-flush mt-1">
+        <li class="list-group-item mt-2 h5">Number of drivers: {{ num_drivers }}</li>
+        <li class="list-group-item mt-2 h5">Number of manufacturers: {{ num_manufacturers }}</li>
+        <li class="list-group-item mt-2 h5">Number of cars: {{ num_cars }}</li>
+      </ul>
+    </div>
+  </div>
+{% endblock %}
+</html>
