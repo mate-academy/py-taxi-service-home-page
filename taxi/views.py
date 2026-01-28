@@ -1,10 +1,8 @@
-from django.http import HttpResponse
 from django.shortcuts import render
 
 from taxi.models import Manufacturer, Car, Driver
 
 
-# Create your views here.
 def index(request):
     num_drivers = Driver.objects.all().count()
     num_manufacturers = Manufacturer.objects.all().count()
