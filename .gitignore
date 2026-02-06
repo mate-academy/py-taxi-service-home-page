@@ -9,3 +9,8 @@ venv/
 *.pyc
 app/db.sqlite3
 db.sqlite3
+taxi_service_db_data.json
+taxi_service/__init__.py
+taxi_service/asgi.py
+taxi_service/wsgi.py
+tests
