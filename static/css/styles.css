@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lemonchiffon;
+}
+
+.sidebar {
+    background-color: azure;
+    border-radius: 10%;
+}
+
+.sidebar-menu {
+    list-style: none;
+}
+
+#link {
+    color: inherit;
+    text-decoration: none;
+}
