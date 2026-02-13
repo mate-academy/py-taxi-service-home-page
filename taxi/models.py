@@ -16,4 +16,4 @@ class Car(models.Model):
     manufacturer = models.ForeignKey(
         Manufacturer, on_delete=models.CASCADE, related_name="cars"
     )
-    drivers = models.ManyToManyField(Driver, related_name="cars")
+    drivers = models.ManyToManyField("taxi.Driver", related_name="cars")
