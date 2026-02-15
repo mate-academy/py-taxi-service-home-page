@@ -1,11 +1,25 @@
+# Python related
+*.pyc
+__pycache__/
+*.pyo
+
+# Environment
+.env
+venv/
+virtualenv/
+
+# IDE related
 .idea/
 .vscode/
-*.iml
-.env
-.DS_Store
-venv/
-.pytest_cache/
-**__pycache__/
-*.pyc
-app/db.sqlite3
+
+# Database
 db.sqlite3
+
+# Django migrations
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
