@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(172, 217, 238);
+    margin: 0;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 5px;
+    padding: 10px;
+}
+
+/* element */
+.sidebar__item {
+    text-decoration: none;
+
+}
+
+/* link */
+.sidebar__link {
+    display: block;          
+    padding: 15px 20px;      
+    background-color: rgb(226, 106, 210);
+    text-decoration: none;
+    color: black;
+    border-radius: 16px;      
+}
+
+.sidebar__link:hover{
+    background-color: rgb(204, 226, 106);
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
