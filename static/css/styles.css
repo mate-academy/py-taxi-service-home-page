@@ -1,0 +1,20 @@
+body {
+    margin-top: 0;
+}
+
+.layout {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 150px;
+    background: #f1f1f1;
+    border-right: 1px solid #ddd;
+}
+
+.content {
+    flex: 1;
+    padding: 16px;
+}
