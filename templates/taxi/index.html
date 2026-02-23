@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <ul class="stats">
+        <li><span class="label">Number of cars:</span> {{ num_cars }}</li>
+        <li><span class="label">Number of drivers:</span> {{ num_drivers }}</li>
+        <li>
+            <span class="label">Number of manufacturers:</span>
+            {{ num_manufacturers }}
+        </li>
+    </ul>
+</div>
+{% endblock %}
