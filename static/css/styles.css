@@ -1,0 +1,21 @@
+body {
+    background: teal;
+    padding: 60px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    border: 1px solid black;
+}
+
+.nav {
+    list-style: none;
+    background: white;
+}
+
+.main-content {
+    background: chocolate;
+}
+
