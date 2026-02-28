@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+}
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.content {
+    padding: 20px;
+}
