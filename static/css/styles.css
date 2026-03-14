@@ -1,0 +1,25 @@
+body {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.visits {
+    font-weight: normal;
+}
+
+.nav-content {
+  list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-content>li{
+    padding: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
