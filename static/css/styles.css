@@ -1,0 +1,25 @@
+.layout {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+}
+
+.sidebar-menu {
+    margin-top: 20px;
+    list-style: none;
+}
+
+.sidebar-menu li {
+    margin-bottom: 10px;
+}
+
+.sidebar-menu a {
+    text-decoration: none;
+    color: red;
+}
