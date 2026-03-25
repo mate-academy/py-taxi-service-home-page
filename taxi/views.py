@@ -11,10 +11,3 @@ def index(request: HttpRequest) -> HttpResponse:
         "num_cars": Car.objects.count(),
     }
     return render(request, "taxi/index.html", context=context)
-
-
-def manufacturers(request: HttpRequest) -> HttpResponse:
-    context = {
-        "num_manufacturers": Manufacturer.objects.count(),
-    }
-    return render(request, "taxi/manufacturers.html", context=context)
