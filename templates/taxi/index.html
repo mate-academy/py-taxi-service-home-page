@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Home - Taxi Service{% endblock %}
+
+{% block content %}
+<ul class="list-group">
+  <li class="list-group-item">
+    <strong>Number of cars:</strong> {{ num_cars }}
+  </li>
+  <li class="list-group-item">
+    <strong>Number of drivers:</strong> {{ num_drivers }}
+  </li>
+  <li class="list-group-item">
+    <strong>Number of manufacturers:</strong> {{ num_manufacturers }}
+  </li>
+</ul>
+{% endblock %}
