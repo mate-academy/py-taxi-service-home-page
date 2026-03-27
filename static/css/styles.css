@@ -1,0 +1,27 @@
+html {
+    background-color: yellow;
+}
+
+.col-sm-2, .col-sm-10 {
+    background-color: yellow;
+}
+
+body {
+    margin: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.link {
+    color: white;
+}
+
+.nav-list {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: black;
+    text-align: center;
+}
