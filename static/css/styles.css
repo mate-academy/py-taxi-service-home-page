@@ -1,0 +1,48 @@
+body {
+  display: inline-block;
+  background-color: #4e5350;
+}
+
+.sidebar-nav {
+  margin: 0;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+}
+
+.sidebar-nav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar-nav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  color: white;
+  margin-left: 290px;
+  padding: 0 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+
