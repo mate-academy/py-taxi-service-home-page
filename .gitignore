@@ -1,11 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyd
+*.pyo
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
 .idea/
 .vscode/
-*.iml
-.env
+*.swp
+*.swo
+
+# Database
+*.sqlite3
+*.db
+
+# Django
+*.log
+local_settings.py
+
+# Static files
+/staticfiles/
+/mediafiles/
+
+# macOS
 .DS_Store
-venv/
-.pytest_cache/
-**__pycache__/
-*.pyc
-app/db.sqlite3
-db.sqlite3
+
+# Windows
+Thumbs.db

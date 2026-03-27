@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>{% block title %}Taxi Service{% endblock %}</title>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    {% include "includes/sidebar.html" %}
+
+    <main class="main-content">
+        {% block content %}
+        <!-- Content will be injected here -->
+        {% endblock %}
+    </main>
+
+    <script src="{% static 'js/app.js' %}"></script>
+</body>
+</html>
