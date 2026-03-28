@@ -1,0 +1,10 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    width: 130px;
+    background: #eee;
+    list-style: none;
+    padding: 8px 0;
+}
