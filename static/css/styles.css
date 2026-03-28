@@ -1,0 +1,26 @@
+body {
+    margin-top: 20px;
+}
+
+.nav-list {
+    padding: 10px;
+    list-style: none;
+    width: 100%;
+}
+
+.nav-link {
+    margin: 10px 5px;
+    color: #000;
+    display: block;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.nav {
+    background-color: #eee;
+    border-radius: 8px;
+}
+
+.subtitle {
+    margin-top: 20px;
+}
