@@ -1,0 +1,16 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav {
+    padding: 0;
+    list-style: none;
+}
+
+.link-nav {
+    margin: 10px;
+    padding: 5px;
+    border: solid gray 1px;
+    border-radius: 5px;
+    width: 200px;
+}
