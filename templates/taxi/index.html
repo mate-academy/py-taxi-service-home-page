@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="content">
+    <h1>Library Home</h1>
+    <p>Welcome to the Greatest Library</p>
+    <h2>Library content:</h2>
+    <ul>
+      <li>{{ num_cars }}</li>
+      <li>{{ num_drivers }}</li>
+      <li>{{ num_manufacturers }}</li>
+    </ul>
+    <p>You have visited this page <strong>2</strong> times</p>
+  </div>
+{% endblock %}
