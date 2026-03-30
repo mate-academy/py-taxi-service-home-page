@@ -1,0 +1,23 @@
+body {
+	background-color: #ffda66;
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+}
+
+.sidebar-nav {
+	display: inline-block;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.content {
+	display: inline-block;
+	list-style: none;
+	font-size: 1em;
+	border: 3px solid black;
+	padding: 10px;
+}
+
+a {
+	color: #0d5393
+}
