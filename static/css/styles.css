@@ -1,0 +1,24 @@
+body {
+    background-color: aquamarine;
+    font-family: "Bitstream Vera Sans Mono", Monaco, "Courier New", Courier, monospace;
+}
+
+.centered-content {
+    display: inline-block;
+    margin-left: 50vh;
+}
+
+#sidebar {
+    list-style: none;
+    display: inline-block;
+    margin-left: -20px;
+    margin-top: -30px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
