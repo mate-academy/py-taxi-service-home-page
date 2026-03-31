@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.sidebar_nav { margin: 10px;
+    padding: 0;
+    background-color: white;
+    list-style: none;
+text-align: left}
+
+.margins {
+    margin: 10px;
+    padding: 10px
+}
