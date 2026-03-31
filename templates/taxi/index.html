@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block title %}
+    <title>Home</title>
+{% endblock %}
+
+{%  block content %}
+    <h1>Taxi homepage</h1>
+    <ul>
+        <li>Which car we have: {{ car_num }}</li>
+        <li>Drivers on the line: {{ drivers_num }}</li>
+        <li>From which country from: {{ manufacturer_num }}</li>
+    </ul>
+{% endblock %}
