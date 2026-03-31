@@ -1,11 +1,25 @@
+# JetBrains & VSCode IDE files
 .idea/
 .vscode/
 *.iml
-.env
-.DS_Store
+
+# Virtual Environment
 venv/
-.pytest_cache/
-**__pycache__/
+.env
+
+# MacOS system files
+.DS_Store
+
+# Python-related files
+**/__pycache__/
 *.pyc
-app/db.sqlite3
+.pytest_cache/
+
+# Database files (avoid committing SQLite)
 db.sqlite3
+app/db.sqlite3  # Remove if "app/" is not relevant
+
+# Logs & Temporary Files
+*.log
+*.swp
+*.swo
