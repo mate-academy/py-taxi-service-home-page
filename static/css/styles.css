@@ -1,0 +1,29 @@
+body {
+    margin: 20px 5px;
+    background-color: rgba(138, 239, 239, 0.1);
+}
+
+.sidebar-nav {
+    background-color: rgba(0, 255, 255, 0.2);
+    padding: 0;
+    list-style: none;
+    font-size: large;
+    text-align: center;
+}
+
+.sidebar-item {
+    line-height: 40px;
+}
+
+.sidebar-item:hover {
+    background-color: rgba(0, 255, 255, 0.35);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
