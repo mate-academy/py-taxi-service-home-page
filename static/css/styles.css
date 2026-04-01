@@ -1,0 +1,32 @@
+body {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    background: darkolivegreen;
+    color: white;
+}
+.row {
+    margin: 10px;
+    border: 1px solid darkgray;
+    border-radius: 20px;
+}
+
+.sidebar {
+    padding-top: 20px;
+    list-style: none;
+}
+
+.sidebar-link{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar-link:hover{
+    text-decoration: none;
+    color: darkgray;
+}
+
+.content {
+    padding-top: 20px;
+    border-left: 1px solid darkgray;
+    height: 100%;
+}
