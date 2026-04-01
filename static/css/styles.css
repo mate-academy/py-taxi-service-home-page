@@ -1,0 +1,37 @@
+body {
+    background: rgba(255,160,122,0.2);
+}
+
+.sidebar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    background: rgba(245, 185, 145, 0.31);
+}
+
+.sidebar a {
+    width: 250px;
+    height: auto;
+    padding: 2%;
+    background: rgba(232, 145, 53, 0.51);
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+.sidebar-box {
+    border-color: red;
+}
+
+.status-info {
+    text-align: center;
+}
+
+.info-block {
+    margin-top: 5%;
+    padding-left: 25%;
+}
+
