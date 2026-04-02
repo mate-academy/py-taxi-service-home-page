@@ -1,0 +1,29 @@
+body {
+    margin-top: 10px;
+    font-family: "Roboto", "Lucida Grande", Verdana, Arial, sans-serif;
+    background-color: lavender;
+    color: darkslategray;
+}
+
+.col-sm-3 {
+    background-color: lemonchiffon;
+}
+
+.col-sm-9 {
+    background-color: aliceblue;
+}
+
+.my-link {
+    font-style: normal;
+    text-decoration: none;
+    color: dimgray;
+}
+
+.sidebar {
+    padding: 10px;
+}
+
+.sidebar li {
+    margin: 5px;
+    list-style-type: none;
+}
