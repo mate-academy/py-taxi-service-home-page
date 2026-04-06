@@ -5,15 +5,13 @@
         <title>Taxi Service</title>
     {% endblock  %}
     {% load static %}
-    <link rel="stylesheet" href="{%static 'css/styles.css'%}">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 <body>
-    {% block sidebar%}
-        {% include "includes/sidebar.html" %}
-    {% endblock %}
+    {% include "includes/sidebar.html" %}
     {% block content%}
 
     {% endblock %}
