@@ -41,7 +41,7 @@ ROOT_URLCONF = "taxi_service.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "templates"],  # ✅ corrigido
+        "DIRS": [BASE_DIR / "templates"], 
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -96,7 +96,7 @@ USE_I18N = True
 USE_TZ = True
 
 
-# ✅ Static files corrigido
+
 STATIC_URL = "/static/"
 
 STATICFILES_DIRS = [
