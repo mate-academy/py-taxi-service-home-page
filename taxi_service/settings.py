@@ -9,7 +9,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = "django-insecure-8ovil3xu6=eaoqd#" \
-             "-#&ricv159p0pypoh5_lgm*)-dfcjqe=yc"
+    "-#&ricv159p0pypoh5_lgm*)-dfcjqe=yc"
 
 DEBUG = True
 
@@ -41,7 +41,7 @@ ROOT_URLCONF = "taxi_service.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [BASE_DIR / "templates"], 
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -68,19 +68,19 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation"
-                ".UserAttributeSimilarityValidator",
+        ".UserAttributeSimilarityValidator",
     },
     {
         "NAME": "django.contrib.auth.password_validation"
-                ".MinimumLengthValidator",
+        ".MinimumLengthValidator",
     },
     {
         "NAME": "django.contrib.auth.password_validation"
-                ".CommonPasswordValidator",
+        ".CommonPasswordValidator",
     },
     {
         "NAME": "django.contrib.auth.password_validation"
-                ".NumericPasswordValidator",
+        ".NumericPasswordValidator",
     },
 ]
 
@@ -94,7 +94,6 @@ TIME_ZONE = "UTC"
 USE_I18N = True
 
 USE_TZ = True
-
 
 
 STATIC_URL = "/static/"
