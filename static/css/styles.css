@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    margin-right: 50px;
+}
+
+.sidebar {
+    min-width: 200px;
+    padding: 20px;
+}
+
+.sidebar-nav {
+    list-style: none;
+}
+
+.sidebar-nav li {
+    margin-bottom: 20px;
+}
+
+.content {
+    flex: 1;
+    padding: 25px;
+}
+
+.stats-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.stats-box .row {
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.stats-box .row:last-child {
+    border-bottom: none;
+}
+
+.stats-box .text {
+    font-weight: bold;
+    margin-right: 4px;
+}
+
+.stats-box .value {
+    font-weight: normal;
+}

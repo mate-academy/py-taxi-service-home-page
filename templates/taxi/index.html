@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <div class="stats-box">
+    <div class="row">
+      <span class="text">Number of cars:</span>
+      <span class="value">{{ num_cars }}</span>
+    </div>
+
+    <div class="row">
+      <span class="text">Number of drivers:</span>
+      <span class="value">{{ num_drivers }}</span>
+    </div>
+
+    <div class="row">
+      <span class="text">Number of manufacturers:</span>
+      <span class="value">{{ num_manufacturers }}</span>
+    </div>
+  </div>
+{% endblock %}
