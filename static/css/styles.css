@@ -1,0 +1,13 @@
+body {
+    background-color: wheat;
+    font-family: Arial, sans-serif;
+}
+
+.sidebar-nav li {
+    padding: 10px;
+    list-style-type: none;
+}
+
+.index_list{
+    padding: 10px;
+}
