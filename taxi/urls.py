@@ -3,7 +3,6 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 from taxi import views
-from taxi.views import index
 
 app_name = "taxi"
 
