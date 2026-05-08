@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.sidebar {
+  width: 200px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  float: left;
+  min-height: 100vh;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 20px;
+}
