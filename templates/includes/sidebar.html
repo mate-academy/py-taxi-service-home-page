@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-  <ul class="sidebar-nav">
+ <ul class="sidebar-nav">
     <li>
-      <a href="{% url 'taxi:index' %}">Home page</a>
+      {% block title %}Home page{% endblock %}
     </li>
     <li>
       <a href="#">Manufacturers</a>
@@ -19,5 +12,3 @@
       <a href="#">Drivers</a>
     </li>
   </ul>
-</body>
-</html>
