@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+}
+
+.sidebar{
+  width: 200px;
+  border-right:
+  1px solid #ccc;
+  padding: 10px;
+}
+
+.content {
+  padding: 20px;
+}
