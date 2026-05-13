@@ -1,0 +1,11 @@
+.sidebar {
+    float: left;
+    width: 200px;
+    background: #f4f4f4;
+    height: 100vh;
+    padding: 20px;
+}
+.content {
+    margin-left: 240px;
+    padding: 20px;
+}
