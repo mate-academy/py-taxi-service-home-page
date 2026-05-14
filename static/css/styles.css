@@ -1,0 +1,25 @@
+/* Этот блок сделает сайдбар слева, а контент справа */
+body {
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+aside {
+    width: 200px;
+    background-color: #343a40; /* Темный цвет для контраста */
+    min-height: 100vh;
+    padding: 20px;
+}
+
+aside a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 30px;
+    flex-grow: 1;
+}
