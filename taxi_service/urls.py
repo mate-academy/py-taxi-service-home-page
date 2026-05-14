@@ -20,5 +20,3 @@ urlpatterns = [
     path("", include(("taxi.urls", "taxi"), namespace="taxi")),
     path("admin/", admin.site.urls),
 ]
-
-
