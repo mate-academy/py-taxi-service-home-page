@@ -1,0 +1,30 @@
+.sidebar-wrapper {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    min-height: 300px;
+}
+
+.sidebar-wrapper ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sidebar-wrapper li {
+    margin-bottom: 10px;
+}
+
+.sidebar-wrapper a {
+    text-decoration: none;
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+.sidebar-wrapper a:hover {
+    text-decoration: underline;
+}
+
+.content-wrapper {
+    background-color: #ffffff;
+}
