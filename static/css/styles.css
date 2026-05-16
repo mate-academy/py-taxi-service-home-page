@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sens-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   }
+
+  .sidebar {
+      width: 200px;
+      background-color:#f4f4f4;
+      padding: 20px;
+      min-height: 100vh;
+  }
+
+  .content {
+  padding: 20px;
+  flex: 1;
+  }
