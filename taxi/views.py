@@ -1,5 +1,5 @@
 from django.http import HttpRequest, HttpResponse
-from .models import Driver, Manufacturer, Car
+from taxi.models import Driver, Manufacturer, Car
 from django.shortcuts import render
 
 
