@@ -1,11 +1,22 @@
+# IDE
 .idea/
 .vscode/
 *.iml
-.env
-.DS_Store
+
+# Environment
 venv/
-.pytest_cache/
-**__pycache__/
+env/
+.venv/
+.env
+
+# Python cache
+__pycache__/
 *.pyc
-app/db.sqlite3
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
 db.sqlite3
