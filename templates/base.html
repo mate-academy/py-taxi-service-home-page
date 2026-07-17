@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        {% block title %}
+            Taxi Service
+        {% endblock %}
+    </title>
+    <link rel="icon" href="{% static 'favicon.png' %}" type="image/x-icon">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <div class="sidebar">
+        {% include "includes/sidebar.html" %}
+    </div>
+
+    <h1>Hey yo, you welcome!</h1>
+
+    <div class="content">
+        {% block content %}
+
+        {% endblock %}
+    </div>
+</body>
+</html>
