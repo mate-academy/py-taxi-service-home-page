@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% block title %}{% endblock %}
+    {% block title %}<title>Taxi Service</title>{% endblock %}
     {% load static %}
   <link rel="stylesheet" href="{% static 'css/styles.css' %}">
 </head>
 <body>
 {% block sidebar %}
-  {% include "taxi/includes/sidebar.html" %}
+  {% include 'includes/sidebar.html' %}
 {% endblock %}
 {% block content %}
 {% endblock %}
 </body>
-</html>
 </html>
