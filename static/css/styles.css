@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.sidebar {
+    margin-top: 20px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
