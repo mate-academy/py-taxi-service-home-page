@@ -89,23 +89,24 @@ DATABASES = {
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation"
-                ".UserAttributeSimilarityValidator",
+        ".UserAttributeSimilarityValidator",
     },
     {
         "NAME": "django.contrib.auth.password_validation"
-                ".MinimumLengthValidator",
+        ".MinimumLengthValidator",
     },
     {
         "NAME": "django.contrib.auth.password_validation"
-                ".CommonPasswordValidator",
+        ".CommonPasswordValidator",
     },
     {
         "NAME": "django.contrib.auth.password_validation"
-                ".NumericPasswordValidator",
+        ".NumericPasswordValidator",
     },
 ]
 
 AUTH_USER_MODEL = "taxi.Driver"
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
@@ -123,6 +124,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
 STATIC_URL = "static/"
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static",
+]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
