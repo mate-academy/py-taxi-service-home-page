@@ -1,37 +1,21 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
 }
 
 .sidebar {
-    width: 200px;
-    min-height: 100vh;
-    padding: 20px;
-    box-sizing: border-box;
-    background-color: #eeeeee;
-    float: left;
+    margin-top: 20px;
 }
 
 .sidebar ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.sidebar li {
-    margin-bottom: 15px;
-}
-
-.sidebar a {
-    text-decoration: none;
-}
-
-.content {
-    margin-left: 240px;
-    padding: 30px;
-}
-
-.content ul {
     padding-left: 20px;
 }
