@@ -1,4 +1,7 @@
 body{margin: 20px;}
+
+.content{font-style: italic;}
+
 .sidebar-nav{
     padding: 0;
     list-style: none;
