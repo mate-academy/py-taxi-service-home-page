@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+/* Сайдбар */
+.sidebar {
+    width: 200px;
+    min-height: 100vh;
+    background-color: #2c3e50;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar li {
+    margin-bottom: 12px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-size: 16px;
+}
+
+.sidebar a:hover {
+    color: #3498db;
+}
+
+/* Основной контент */
+.content {
+    padding: 30px;
+    flex: 1;
+}
+
+.content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.content li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
