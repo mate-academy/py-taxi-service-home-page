@@ -1,11 +1,43 @@
+# Virtual environment
+venv/
+env/
+.venv/
+*.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+*.log
+local_settings.py
+media/
+
+# IDE
 .idea/
 .vscode/
-*.iml
+*.swp
+*.swo
+*~
+
+# Environment variables
 .env
-.DS_Store
-venv/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Testing
+.coverage
 .pytest_cache/
-**__pycache__/
-*.pyc
-app/db.sqlite3
-db.sqlite3
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
