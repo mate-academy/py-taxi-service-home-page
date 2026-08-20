@@ -10,7 +10,7 @@ def index(request) -> HttpResponse:
     num_manufacturers = Manufacturer.objects.count()
     num_cars = Car.objects.count()
 
-    template = loader.get_template('taxi/index.html')
+    template = loader.get_template("taxi/index.html")
     context = {
         "num_drivers": num_drivers,
         "num_manufacturers": num_manufacturers,
