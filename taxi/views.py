@@ -1,19 +1,17 @@
-from django.http import HttpResponse
-from django.template.loader import render_to_string
-
+﻿from django.shortcuts import render
 from taxi.models import Car, Driver, Manufacturer
 
 
-def index(request: HttpResponse) -> HttpResponse:
+def index(request: object) -> object:
+    num_cars = Car.objects.count()
     num_drivers = Driver.objects.count()
     num_manufacturers = Manufacturer.objects.count()
-    num_cars = Car.objects.count()
 
     context = {
+        "num_cars": num_cars,
         "num_drivers": num_drivers,
         "num_manufacturers": num_manufacturers,
-        "num_cars": num_cars,
     }
 
-    rendered_template = render_to_string("taxi/index.html", context=context)
-    return HttpResponse(rendered_template)
+    return render(request, "taxi/index.html", context=context)
+
