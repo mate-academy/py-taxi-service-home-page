@@ -1,0 +1,16 @@
+body {
+    margin-top: 20px;
+}
+
+.sidebar-nav{
+    padding: 0;
+    list-style: none;
+}
+
+.Home_page_taxi_service {
+    font-weight: bold;
+}
+
+.content_taxi_service {
+    font-weight: bold;
+}
