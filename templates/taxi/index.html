@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% url 'taxi:index' %}
+{% block content %}
+    <ul>
+        <li>Count cars: {{ num_cars }}</li>
+        <li>Count drivers: {{ num_drivers }}</li>
+        <li>Count manufacturers: {{ num_manufacturers }}</li>
+    </ul>
+{% endblock %}
