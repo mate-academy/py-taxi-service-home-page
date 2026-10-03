@@ -17,23 +17,22 @@ Good example
 ```python
 from django.urls import path
 
-from taxi.views import index
+from taxi import index
 ```
 
 Bad example:
 
 ```python
 from django.urls import path
-from taxi.views import index
+from taxi import index
 ```
 
 3. Use absolute imports instead of relative imports 
   
 Good example:
 
-
 ```python
-from taxi.views import index
+from taxi import index
 ```
 
 Bad example:
