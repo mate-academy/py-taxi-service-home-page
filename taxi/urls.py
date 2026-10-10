@@ -1,7 +1,6 @@
-from operator import index
-
 from django.urls import path
-from . import views
+
+from taxi import views
 
 app_name = "taxi"
 
