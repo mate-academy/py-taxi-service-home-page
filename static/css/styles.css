@@ -1,0 +1,28 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: #343a40;
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: #cfd4da;
+    text-decoration: none;
+    display: block;
+    padding: 10px 0;
+}
+
+.sidebar a:hover {
+    color: #ffffff;
+}
+
+.main-content {
+    padding: 30px;
+}
