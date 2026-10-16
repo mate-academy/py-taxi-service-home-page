@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <header class="page-header">
+    <span class="eyebrow">FLEET OVERVIEW</span>
+    <span class="page-label">Taxi Service / Home</span>
+  </header>
+  <section aria-labelledby="overview-title">
+    <p class="eyebrow welcome">WELCOME TO TAXI SERVICE</p>
+    <h1 id="overview-title">Every journey starts here.</h1>
+    <p class="intro">A clear view of the people and vehicles that keep your service moving.</p>
+    <ul class="stats" aria-label="Service totals">
+      <li class="stat-card">
+        <span class="stat-heading">Cars <span class="stat-number" aria-hidden="true">01</span></span>
+        <strong>{{ num_cars }}</strong>
+        <span class="stat-detail">Vehicles in your fleet</span>
+      </li>
+      <li class="stat-card">
+        <span class="stat-heading">Drivers <span class="stat-number" aria-hidden="true">02</span></span>
+        <strong>{{ num_drivers }}</strong>
+        <span class="stat-detail">People behind the wheel</span>
+      </li>
+      <li class="stat-card">
+        <span class="stat-heading">Manufacturers <span class="stat-number" aria-hidden="true">03</span></span>
+        <strong>{{ num_manufacturers }}</strong>
+        <span class="stat-detail">Brands across your fleet</span>
+      </li>
+    </ul>
+  </section>
+  <footer class="page-footer">ONE SERVICE. EVERY JOURNEY.</footer>
+{% endblock %}
+
