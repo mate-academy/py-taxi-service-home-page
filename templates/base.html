@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Taxi Service{% endblock %}</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="app-layout">
+    <aside class="sidebar">
+      <a class="brand" href="{% url 'taxi:index' %}"><span class="brand-mark" aria-hidden="true">T</span> Taxi Service</a>
+      {% block sidebar %}
+        {% include "includes/sidebar.html" %}
+      {% endblock %}
+      <p class="sidebar-note">Your fleet, at a glance.</p>
+    </aside>
+    <main id="main-content">
+      {% block content %}{% endblock %}
+    </main>
+  </div>
+</body>
+</html>
+
