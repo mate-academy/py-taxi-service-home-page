@@ -1,62 +1,82 @@
-# Taxi service home page
+<div align="center">
 
-- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
-- Use the following command to load prepared data from fixture to test and debug your code:
+# 🚕 Taxi Service — Home Page
+### Dashboard inicial com Django
 
-  ```python manage.py loaddata taxi_service_db_data.json```.
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Study](https://img.shields.io/badge/Tipo-Projeto%20educacional-475569?style=for-the-badge)
 
-Feel free to add more data using admin panel, if needed.
+</div>
 
-In this task, you should implement the home page of the site.
+## 🎯 Sobre o projeto
 
-1. Inside `taxi_service.urls` add path to the `taxi.urls`. Don't forget to specify `namespace`.
-2. Inside `taxi.urls` create a path for the home page. This
-page should open when you are accessing `http://127.0.0.1:8000/`. Give this
-path the name `index`.
-3. Inside `taxi.views` create function `index`. In this function:
-    - count the number of all drivers with `num_drivers` variable
-    - count the number of all manufacturers with `num_manufacturers` variable
-    - count the number of all cars with `num_cars` variable 
-    - return `HttpResponse` with rendered template. Pass received data to this template.
+Etapa educacional de um sistema Django para serviços de táxi. A branch de funcionalidade implementa o fluxo da página inicial, conectando rotas, view e templates.
 
-4. Before you create a template you have to create styles for the 
-template. Create directory `static` next to the directory `taxi`. Inside this 
-directory create a file with the following path `css/styles.css`. Don't forget to do all necessary steps so that Django can serve these static files.
-5. Create directory `templates` next to the directory `taxi`. There you will
-store templates for pages. Edit settings so that engine knows where to look for template source files.
-6. Inside directory `templates` create template `base.html`, it is a parent 
-template, other templates will extend `base.html`. Inside `base.html`:
-   - Inside `<head>`:
-      - Create block `title` with `Taxi Service` title inside
-      - Load static and import `styles.css`
-   - Inside `<body>`:
-      - Create block `sidebar`
-      - Create block `content`
-7. Inside `templates` create a directory `taxi`. There you will store templates
-for the app `taxi`. Create `index.html` there. Inside `index.html`:
-    - Override block `content` and place (as a list) information about:
-        - Number of cars
-        - Number of drivers
-        - Number of manufacturers
-8. Inside `templates` create a directory `includes`. There you will store includes. 
-Create `sidebar.html` there. Inside `sidebar.html`:
-    - Write realization of `sidebar` include that must have a list of empty links:
-        - Home page
-        - Manufacturers
-        - Cars
-        - Drivers
-    - Anchor tags can serve as placeholder links for this task, meaning the actual destination of the link is not a concern.
-      For example, you can use `href="#"` as the link destination.
+**Código relevante:** branch [`feature/taxi-home-page`](https://github.com/WalterMatheusgg/py-taxi-service-home-page/tree/feature/taxi-home-page). Desenvolvido como parte de exercícios práticos com Django; não representa um sistema comercial de transporte.
 
-    - In `base.html` include `sidebar.html`, so all these links will be accessible on all pages.
-9. Check that you put empty lines at the end of each HTML file.
-10. Run server, open `http://127.0.0.1:8000/`, check if the information is there and if it is correct.
-11. Run `python manage.py test` to check your code results.
-12. Avoid adding unnecessary files (like `venv`, `pycache`, `.idea`, `db.sqlite3`) and remember to include a `.gitignore` file in your PR.
+## ✨ Funcionalidades e estrutura
 
-### Note: Attach screenshots of all created or modified pages to pull request. 
+| Área | Recurso presente na implementação |
+|:--|:--|
+| **Home** | View para apresentar dados resumidos do projeto. |
+| **Rotas** | Ligação das URLs do projeto às URLs da aplicação `taxi`. |
+| **Modelos** | Uso de entidades de carros, motoristas e fabricantes. |
+| **Templates** | Interface renderizada pelo Django. |
 
-1) Attach screenshots to the comment, NOT in commit. 
-2) It's important to **attach images** not links to them. See example:
+## 🏗️ Arquitetura
 
-![image](https://mate-academy-images.s3.eu-central-1.amazonaws.com/python_pr_with_images.png)
+```mermaid
+flowchart LR
+A["Navegador"] --> B["Django URLs + Views"]
+B --> C["Models e regras"]
+C --> D[("SQLite")]
+B --> E["Templates HTML"]
+```
+
+Organização principal da aplicação:
+
+```text
+taxi/             # Models, views, admin e rotas
+taxi_service/     # Configuração Django
+templates/        # Páginas HTML (quando aplicável)
+manage.py         # Comandos do Django
+```
+
+## 🚀 Executar localmente
+
+Use um ambiente Python isolado, com versão compatível com as dependências do projeto.
+
+```bash
+git clone -b feature/taxi-home-page https://github.com/WalterMatheusgg/py-taxi-service-home-page.git
+cd py-taxi-service-home-page
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python manage.py migrate
+python manage.py check
+python manage.py runserver
+```
+
+Acesse **http://127.0.0.1:8000/**.
+
+Para testar funcionalidades existentes:
+
+```bash
+python manage.py test
+```
+
+**Observação:** não executei o projeto ou a suíte nesta revisão. Em algumas etapas, os testes são fornecidos como parte do enunciado do curso e podem exigir configuração adicional.
+
+## 🔒 Limites e cuidados
+
+Esta etapa integra uma trilha de exercícios Django; não é um produto de gestão de frota pronto para produção.
+
+Use somente dados de teste. Não reutilize senhas presentes em fixtures, mantenha `DEBUG` desabilitado em servidores públicos e revise dependências antes de qualquer implantação externa.
+
+## 👨‍💻 Repositório
+
+**Walter Matheus Soares da Silva** · [GitHub](https://github.com/WalterMatheusgg)
+
+Outros projetos do portfólio: [NEXUS CRM](https://github.com/WalterMatheusgg/NEXUS) · [Biblioteca Digital](https://github.com/WalterMatheusgg/library-service/tree/develop)
