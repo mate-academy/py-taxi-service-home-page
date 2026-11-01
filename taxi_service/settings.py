@@ -56,7 +56,7 @@ ROOT_URLCONF = "taxi_service.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": [BASE_DIR / "templates"],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -70,7 +70,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "taxi_service.wsgi.application"
-
+STATICFILES_DIRS = [BASE_DIR / "static"]
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
