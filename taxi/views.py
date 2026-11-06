@@ -1,5 +1,8 @@
-from django.shortcuts import render
-from taxi.models import Driver, Manufacturer, Car
+from django.http import HttpResponse
+from django.template import loader
+
+from taxi.models import Car, Driver, Manufacturer
+
 
 def index(request):
     num_drivers = Driver.objects.count()
@@ -12,4 +15,4 @@ def index(request):
         "num_cars": num_cars,
     }
 
-    return render(request, "taxi/index.html", context)
+    return HttpResponse(loader.render_to_string("taxi/index.html", context, request))
