@@ -15,4 +15,6 @@ def index(request):
         "num_cars": num_cars,
     }
 
-    return HttpResponse(loader.render_to_string("taxi/index.html", context, request))
+    return HttpResponse(
+        loader.render_to_string("taxi/index.html", context, request)
+    )
