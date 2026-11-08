@@ -1,10 +1,13 @@
 from django.shortcuts import render
-
-from taxi.models import Driver, Manufacturer, Car
-
+from taxi.models import Car, Driver, Manufacturer
 
 def index(request):
-    num_drivers = Driver.objects.all().count()
-    num_manufacturers = Manufacturer.objects.all().count()
-    num_cars = Car.objects.all().count()
-    return HttpResponse(num_drivers, content_type="application/json")
+    num_drivers = Driver.objects.count()
+    num_manufacturers = Manufacturer.objects.count()
+    num_cars = Car.objects.count()
+    context = {
+        "num_drivers": num_drivers,
+        "num_manufacturers": num_manufacturers,
+        "num_cars": num_cars,
+    }
+    return render(request, "taxi/index.html", context)
