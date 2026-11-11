@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.layout {
+  display: flex;
+  gap: 32px;
+  padding: 24px;
+}
+
+.sidebar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  margin-bottom: 8px;
+}
