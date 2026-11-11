@@ -56,7 +56,7 @@ ROOT_URLCONF = "taxi_service.urls"
 STATIC_URL = "static/"
 
 STATICFILES_DIRS = [
- BASE_DIR / "static",
+    BASE_DIR / "static",
 ]
 
 TEMPLATES = [
