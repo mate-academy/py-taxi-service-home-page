@@ -1,0 +1,13 @@
+ul li{
+  list-style: none;
+}
+
+.sidebar a{
+  color: inherit;
+  transition: color .4s ease;
+  text-decoration: none;
+}
+
+.sidebar a:hover{
+  color: blue;
+}
